@@ -6,4 +6,4 @@ ham.addEventListener('click', () => {
 })
 
 let x =document.getElementById("followercount")
-x.innerHTML = " 680 ";
+x.innerHTML = " 715 ";

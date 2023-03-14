@@ -49,6 +49,7 @@ a {
 :root {
     --black: #151515;
     --grey: #282a30;
+    --offwhite: rgba(255, 255, 255, 0.3);
     --blue:#38b6ff;
 }
 
@@ -149,7 +150,7 @@ nav {
     padding: 10px;
     height:fit-content;
     color: white;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid var(--offwhite);
     position: sticky;
     bottom:  15vh;
     top: calc(10vh + 20px);
@@ -172,7 +173,7 @@ button {
 .tagrow button {
     color: white;
     padding: 5px 10px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid var(--offwhite);
     transition: all .3s ease;
 }
 
@@ -186,7 +187,7 @@ button {
     color: var(--grey);
     font-size: 1.rem;
     color: white;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid var(--offwhite);
     margin-top:10px;
     transition: all .3s ease;
 }
@@ -209,7 +210,7 @@ button {
 .title {
     width: calc(100% - 20px);
     margin-bottom: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid var(--offwhite);
     box-sizing: border-box;
 }
 
@@ -225,7 +226,11 @@ button {
     background-color: var(--grey);
     width: calc(100% - 20px);
     margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, .3) 0px 7px 29px 0px;
+}
+
+.blogcard h3 a{
+   color: var(--blue);
 }
 
 .details {
@@ -237,8 +242,7 @@ button {
 }
 
 .details h3{
-    color: var(--blue);
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .blogcard .tagrow{
@@ -266,7 +270,7 @@ button {
 footer {
     height: 50px;
     width: 100%;
-    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid var(--offwhite);
     z-index: 2;
     display: flex;
     justify-content: space-between;
@@ -428,7 +432,11 @@ footer {
     footer {
         flex-direction: column-reverse;
         height: auto;
-    }
+        width: 90%;    
+        margin: auto;
+        margin-bottom: 20px;
+        border: 2px solid var(--offwhite);
+}
 
     .copyright {
         padding-left: 0px;
@@ -444,5 +452,5 @@ footer {
         flex-direction: column;
         width: 90%;
     }
-    
+
 }
