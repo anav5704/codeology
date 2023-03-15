@@ -1,17 +1,8 @@
 {
   "name": "dinghydevhub",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.`0.0"
-  },
+  "description": "",
+  "main": ".eleventy.js",
   "dependencies": {
     "a-sync-waterfall": "^1.0.1",
     "acorn": "^7.4.1",
@@ -198,5 +189,12 @@
     "ws": "^8.13.0",
     "yallist": "^4.0.0"
   },
-  "description": ""
+  "devDependencies": {},
+  "scripts": {
+    "start" : "eleventy --serve",
+    "build" : "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
