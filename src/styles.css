@@ -227,7 +227,6 @@ button {
     background-color: var(--grey);
     width: calc(100% - 20px);
     margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, .3) 0px 7px 29px 0px;
 }
 
 .blogcard h3 a{
@@ -270,10 +269,9 @@ button {
 }
 
 footer {
-    height: 50px;
+    height: 10vh;
     width: 100%;
     border-top: 2px solid var(--offwhite);
-    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -333,7 +331,8 @@ footer {
     .menus ul li {
         margin-right: 0px;
         padding: 10px;
-        margin: auto;
+        margin: 10px auto;
+
     }
 
    .logo button {
