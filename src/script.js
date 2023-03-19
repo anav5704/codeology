@@ -6,4 +6,18 @@ ham.addEventListener('click', () => {
 })
 
 let x =document.getElementById("followercount")
-x.innerHTML = " 715 ";
+x.innerHTML = " 850 ";
+
+nav = document.querySelector(".navholder");
+let LastScrollY = window.scrollY;
+
+window.addEventListener ("scroll", () => {
+    if (LastScrollY < window.scrollY) {
+        nav.style.top= "-10vh";
+    }
+    else {
+        nav.style.top= "0";
+    }
+    LastScrollY = window.scrollY;
+})
+
