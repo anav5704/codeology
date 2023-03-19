@@ -158,6 +158,7 @@ nav {
     top: 20px;
     position: sticky;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .featured h2 {
@@ -192,6 +193,7 @@ button {
     border: 2px solid var(--offwhite);
     margin-top:10px;
     transition: all .3s ease;
+    border-radius: 5px;
 }
 
 .details button:hover {
@@ -214,6 +216,7 @@ button {
     margin-bottom: 20px;
     border: 2px solid var(--offwhite);
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .main h2 {
@@ -229,6 +232,8 @@ button {
     background-color: var(--grey);
     width: calc(100% - 20px);
     margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .blogcard h3 a{
@@ -316,18 +321,29 @@ footer {
     }
 
     .menus ul{
+        margin: 20px auto;
         flex-direction: column;
-        position: absolute;
-        width: 100%;
-        border-top: 2px solid var(--grey);
+        width: 90%;
+        border: 2px solid var(--offwhite);
         font-size: 1.3rem;
         text-align: center;
-        background-color: var(--grey);
+        background-color: var(--grey);  
+        border-radius: 5px;      
+
     }
 
     .menus {
+        top: 10vh;
+        position: absolute;
         opacity: 0;
         transition: all .3s ease;
+        z-index: 2;
+        height: 100vh;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
     }
 
     .menus ul li {
@@ -439,6 +455,7 @@ footer {
         margin: auto;
         margin-bottom: 20px;
         border: 2px solid var(--offwhite);
+        border-radius: 5px;
 }
 
     .copyright {
