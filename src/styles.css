@@ -31,6 +31,7 @@ h2 {
 
 ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -236,7 +237,7 @@ button {
     overflow: hidden;
 }
 
-.blogcard h3 a{
+.blogcard h3 a, .blogcard h3 {
    color: var(--blue);
 }
 
@@ -265,6 +266,7 @@ button {
     margin: 4px 2px;
     transition: all .3s ease;
     border: 2px solid var(--grey);
+    border-radius: 5px;
 }
 
 .featurecard:hover  {
@@ -336,6 +338,7 @@ footer {
         top: 10vh;
         position: absolute;
         opacity: 0;
+        visibility: hidden;
         transition: all .3s ease;
         z-index: 2;
         height: 100vh;
@@ -363,6 +366,7 @@ footer {
 
     .activated {
         opacity: 1;
+        visibility: visible;
    }
 
     .ham {

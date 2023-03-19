@@ -5,8 +5,12 @@ ham.addEventListener('click', () => {
     menu.classList.toggle('activated');
 })
 
-let x =document.getElementById("followercount")
+let x =document.getElementById("igfollowercount")
 x.innerHTML = " 850 ";
+let y =document.getElementById("ytfollowercount")
+y.innerHTML = " 10 ";
+let z =document.getElementById("ttfollowercount")
+z.innerHTML = " 10 ";
 
 nav = document.querySelector(".navholder");
 let LastScrollY = window.scrollY;
