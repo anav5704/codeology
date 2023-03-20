@@ -11,10 +11,10 @@ ham.addEventListener('click', () => {
 
 let x =document.getElementById("igfollowercount")
 x.innerHTML = " 850 ";
-let y =document.getElementById("ytfollowercount")
-y.innerHTML = " 10 ";
-let z =document.getElementById("ttfollowercount")
-z.innerHTML = " 10 ";
+// let y =document.getElementById("ytfollowercount")
+// y.innerHTML = " 10 ";
+// let z =document.getElementById("ttfollowercount")
+// z.innerHTML = " 10 ";
 
 // Navbar hide on scroll behaviour
 

@@ -247,7 +247,7 @@ button {
 }
 
 .details h3{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .blogcard .tagrow{
@@ -438,6 +438,10 @@ footer {
 
     .main h2 {
         padding: 10px;
+    }
+
+    .details .user {
+        font-size: .8rem;
     }
 
     .featured {
