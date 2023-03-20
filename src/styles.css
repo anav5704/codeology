@@ -4,6 +4,7 @@
     font-family: 'Anton', sans-serif;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Poppins', sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 h2 {
