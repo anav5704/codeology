@@ -11,7 +11,6 @@ h2 {
     font-family: 'League Spartan', sans-serif;
     font-weight: 900;
     letter-spacing: 1px;
-    font-size: 1.7rem;
 
 }
 
@@ -146,7 +145,6 @@ nav {
     padding-top: calc(10vh + 20px);
     width: 80%;
     display: flex;
-
 }
 
 .featured {
@@ -439,11 +437,7 @@ footer {
     .main h2 {
         padding: 10px;
     }
-
-    .details .user {
-        font-size: .8rem;
-    }
-
+    
     .featured {
         box-sizing: border-box;
         width: 90%;

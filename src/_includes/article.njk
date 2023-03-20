@@ -7,10 +7,10 @@ layout: 'base.njk'
         <div class="img"><img src="{{ image }}" alt=""></div>
         <div class="details">
         <div class="writer">
-            <p class= "user"><i class="fa-solid fa-user"></i> {{ author }} | <i class="fa-solid fa-calendar-days"></i> {{ publish }} | <i class="fa-solid fa-clock"></i> {{ time }}</p>
+            <p class= "user"><i class="fa-solid fa-user"></i> {{ author }} <i class="fa-solid fa-calendar-days"></i> {{ publish }} <i class="fa-solid fa-clock"></i> {{ time }}</p>
         </div>
         <h3>{{ title }}</h3>
-        {{ content | safe }}
+        <p>{{ content | safe }}</p>
         </div>
     </div>
     </div>
