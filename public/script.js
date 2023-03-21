@@ -69,6 +69,7 @@ document.getElementById("quotes").innerHTML = quotes[randnumberr];
 
 function closediv() {
     document.querySelector(".helloholder").style.display = "none";
+    localStorage.setItem ('modal','true');
 }
 
 //Shoows welcsome card on load
