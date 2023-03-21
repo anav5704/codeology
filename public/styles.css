@@ -39,6 +39,7 @@ h2 {
 
 body {
     background-color: var(--black);
+   position: relative;
 }
 
 a {
@@ -52,6 +53,67 @@ a {
     --offwhite: rgba(255, 255, 255, 0.3);
     --blue:#38b6ff;
 }
+
+.hello {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: var(--grey);
+    width: 250px;
+    color: white;
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
+    border: 2px solid var(--offwhite);
+    transition: all .3s ease;
+    animation: helloin .3s ease 1s;
+    animation-fill-mode: forwards;
+
+}
+
+.hello i {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    color: var(--offwhite);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.hello i:hover {
+    color: var(--blue);
+}
+
+
+.hello .img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    margin: 20px 10px 10px 10px;
+
+}
+
+.hello .img img {
+    width: 100%;
+    scale: 1.025;
+}
+
+ .hello p{
+   padding: 5px 10px;
+ }
+
+ .hello button {
+    margin-bottom: 10px;
+    scale: 0.9;
+ }
 
 .navholder {
     width: 100%;
@@ -164,7 +226,7 @@ nav {
     margin-bottom: 5px;
 }
 
-button {
+button  {
     background-color: var(--grey);
     border: none;
     color: white;
@@ -172,7 +234,7 @@ button {
     font-size: 1rem;
 }
 
-.details button {
+.details button , .hello button{
     padding: 10px 20px;
     font-size: 1.1rem;
     color: var(--grey);
@@ -184,7 +246,7 @@ button {
     border-radius: 5px;
 }
 
-.details button:hover {
+.details button:hover, .hello button:hover {
   color: var(--grey);
   background-color: var(--blue);
   border: 2px solid var(--blue);
@@ -513,4 +575,14 @@ form button:hover {
         width: 90%;
     }
 
+}
+
+@keyframes helloin {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

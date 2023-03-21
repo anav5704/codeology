@@ -42,3 +42,26 @@ function outsideClick(e) {
         mobileham.classList.toggle('active');
 }}
 
+// Dynamic welcome text on hello card
+
+var greetings = [
+    "Hello There 👋",
+    "Ni Sa Bula 🤝",
+    "Namaste 🙏",
+    "Asalamu Alaikum 🌙"
+]
+
+var randnumber = Math.floor(Math.random() * (greetings.length));
+document.getElementById("hellotext").innerHTML = greetings[randnumber];
+
+
+function close() {
+    // document.querySelector(".hello").style.opacity = "0";
+    // document.querySelector(".hello").style.visibility = "hidden";
+    console.log ("close");
+}
+
+function myFunction() {
+    document.querySelector(".hello").style.opacity = "0";
+    document.querySelector(".hello").style.visibility = "hidden";
+}

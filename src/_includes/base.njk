@@ -13,7 +13,7 @@
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-    
+    {% include 'hello.njk' %}
     {% include 'header.njk' %}
     <section class="body">
         {{ content | safe }}
