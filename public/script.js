@@ -72,7 +72,7 @@ function closediv() {
     localStorage.setItem ('modal','true');
 }
 
-//Shoows welcsome card on load
+//Shoows welcsome card on load and resets on window close
 
 window.addEventListener ('load', () => {
     if (localStorage.getItem ('modal') !== 'true') {
@@ -85,6 +85,7 @@ window.addEventListener ('load', () => {
     }
 })
 
-// window.addEventListener ('load', () => {
-//     var timeout = 5; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
-// })
+window.BeforeUnloadEvent = function () {
+    localStorage.clear();
+    return '';
+}
