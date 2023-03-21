@@ -62,6 +62,5 @@ function close() {
 }
 
 function myFunction() {
-    document.querySelector(".hello").style.opacity = "0";
-    document.querySelector(".hello").style.visibility = "hidden";
+    document.querySelector(".helloholder").style.display = "none";
 }
