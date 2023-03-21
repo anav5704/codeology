@@ -87,4 +87,5 @@ window.addEventListener ('load', () => {
 
 window.BeforeUnloadEvent = function () {
     localStorage.clear();
+    return '';
 }
