@@ -1,0 +1,37 @@
+---
+title : Talk to Us 
+layout: 'base.njk'
+---
+
+    <div class="main">
+        <div class="title"><h2>{{ title }} 😊</h2></div>
+           <div class="blogcard">
+            <div class="details">
+            <h1>Got something to say?</h1>
+            <p>Feel free to let us know what you think about the website. Feedback is the thing we value the most as it helps us improve our website, enabling you to have a better experince! Not only that, but if you have any blog ideas or requests, just let us know and we might just make it.</p>
+         </div>
+        </div>
+       <div class="blogcard">
+                    <div class="form" id="form">
+                        <form action= "https://formsubmit.co/dinghydev@gmail.com" method="POST">
+                            
+                            <!-- honeyopt? -->
+                            <input type="text" name="_honey" style="display:none">
+                            <!-- disble captcha??? -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <!-- success page:) -->
+                            <input type="hidden" name="_next" value="https://dinghydevhub.netlify.app/success" >
+                            <input class="joe" type="text" name="Name" id="name" placeholder="Name" required>
+                            <input class="joe" type="text" name="Phone" id="phone" placeholder="Phone Number"  required >
+                            <input class="joe" type="email" name="Email" id="email" placeholder="E-mail Address" required >
+                            <textarea class="joe"  name="Message" id="message" rows="5" placeholder="Message" required ></textarea>
+                            <div class="sendNsocials">
+                                <div class="sedbtn">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+        </div>
+    </div>
