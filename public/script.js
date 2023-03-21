@@ -83,3 +83,7 @@ window.addEventListener ('load', () => {
         console.log ("seen");
     }
 })
+
+// window.addEventListener ('load', () => {
+//     var timeout = 5; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
+// })

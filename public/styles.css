@@ -118,6 +118,7 @@ a {
     font-size: 1.2rem;
     cursor: pointer;
     transition: all .3s ease;
+    pointer-events: all;
 }
 
 .hello i:hover {
