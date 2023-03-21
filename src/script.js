@@ -54,6 +54,8 @@ var greetings = [
 var randnumber = Math.floor(Math.random() * (greetings.length));
 document.getElementById("hellotext").innerHTML = greetings[randnumber];
 
+// Dynamic welcome quotes for loading screen
+
 var quotes = [
     "\"Eeveryone can make a choice, but not eveyone can make the right choice.\" <br> <p>- Jasveen Singh.</p>",
     "\"When life hits you, hit back.\" <br> <p> - Veer Chandra.</p>",
@@ -63,7 +65,21 @@ var quotes = [
 var randnumberr = Math.floor(Math.random() * (quotes.length));
 document.getElementById("quotes").innerHTML = quotes[randnumberr];
 
-function myFunction() {
+// Hides welcome card on click
+
+function closediv() {
     document.querySelector(".helloholder").style.display = "none";
 }
 
+//Shoows welcsome card on load
+
+window.addEventListener ('load', () => {
+    if (localStorage.getItem ('modal') !== 'true') {
+    var timeout = 5000; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
+    }
+
+    else {
+        // localStorage.setItem ('modal','true');
+        console.log ("seen");
+    }
+})

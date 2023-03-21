@@ -22,7 +22,7 @@
 
     <div class="helloholder">
 <div class="hello">
-    <i onclick="myFunction()" class="fa-solid fa-xmark"></i>
+    <i onclick="closediv()" class="fa-solid fa-xmark"></i>
     <div class="img"><img src="/img/hero.png" alt=""></div>
     <h2 id = "hellotext"></h2>
     <p>My name is Anav and I made this website, pretty cool right? If you have any questions, don't hold back!</p>
@@ -131,15 +131,15 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero vero, quo susci
   }
 </script>
 <script>
-var body = document.getElementById("body");
-window.addEventListener("load" , function(){
-    body.style.overflowY="scroll";
-})
+    var body = document.getElementById("body");
+    window.addEventListener("load" , function(){
+        body.style.overflowY="scroll";
+    })
 
-var loader = document.querySelector(".loader");
-window.addEventListener("load" , function(){
-    loader.style.display="none";
-})
+    var loader = document.querySelector(".loader");
+    window.addEventListener("load" , function(){
+        loader.style.display="none";
+    })
 </script>
 </body>
 </html>
