@@ -41,6 +41,7 @@ h2 {
 body {
     background-color: var(--black);
    position: relative;
+   overflow: hidden;
 }
 
 a {
@@ -53,6 +54,28 @@ a {
     --grey: #282a30;
     --offwhite: rgba(255, 255, 255, 0.3);
     --blue:#38b6ff;
+}
+
+.loader {
+    background-color: var(--grey);
+    position: fixed;
+    height: 100vh;
+    top:0;
+    width: 100%;
+    z-index: 11;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadercontent {
+    width: 350px;
+}
+
+.quotes p {
+    color: var(--blue);
+    text-align: right;
 }
 
 .hello {
@@ -71,7 +94,6 @@ a {
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
     border: 2px solid var(--offwhite);
-
 }
 
 .helloholder {
@@ -79,7 +101,6 @@ a {
     position: fixed;
     height: 100vh;
     width: 100%;
-    border-top: 2px solid var(--offwhite);
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -104,7 +125,6 @@ a {
     color: var(--blue);
 }
 
-
 .hello .img {
     border-radius: 50%;
     height: 150px;
@@ -120,11 +140,12 @@ a {
 }
 
  .hello p{
-   padding: 5px 10px;
+   padding: 10px 10px 0px 10px;
  }
 
  .hello button {
     margin-bottom: 10px;
+    margin-top: 5px !important;
     scale: 0.9;
  }
 

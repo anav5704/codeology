@@ -54,13 +54,16 @@ var greetings = [
 var randnumber = Math.floor(Math.random() * (greetings.length));
 document.getElementById("hellotext").innerHTML = greetings[randnumber];
 
+var quotes = [
+    "\"Eeveryone can make a choice, but not eveyone can make the right choice.\" <br> <p>- Jasveen Singh.</p>",
+    "\"When life hits you, hit back.\" <br> <p> - Veer Chandra.</p>",
+    "\"It's cool to be good at many things, but it's better to be the best at one thing.\" <br> <p> - Indeevar Nair.</p>"
+]
 
-function close() {
-    // document.querySelector(".hello").style.opacity = "0";
-    // document.querySelector(".hello").style.visibility = "hidden";
-    console.log ("close");
-}
+var randnumberr = Math.floor(Math.random() * (quotes.length));
+document.getElementById("quotes").innerHTML = quotes[randnumberr];
 
 function myFunction() {
     document.querySelector(".helloholder").style.display = "none";
 }
+

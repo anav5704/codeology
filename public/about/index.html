@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="/styles.css">
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
-<body>
+<body id="body">
+    <div class="loader">
+    <div class="loadercontent">
+        <h2 class="quotes" id="quotes"></h2>
+    </div>
+</div>
+
+
     <div class="helloholder">
 <div class="hello">
     <i onclick="myFunction()" class="fa-solid fa-xmark"></i>
@@ -125,6 +132,17 @@
       }
     });
   }
+</script>
+<script>
+var body = document.getElementById("body");
+window.addEventListener("load" , function(){
+    body.style.overflowY="scroll";
+})
+
+var loader = document.querySelector(".loader");
+window.addEventListener("load" , function(){
+    loader.style.display="none";
+})
 </script>
 </body>
 </html>
