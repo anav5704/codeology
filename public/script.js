@@ -79,7 +79,7 @@ window.addEventListener ('load', () => {
     }
 
     else {
-        // localStorage.setItem ('modal','true');
+        localStorage.setItem ('modal','true');
         console.log ("seen");
     }
 })
