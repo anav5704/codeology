@@ -69,23 +69,24 @@ document.getElementById("quotes").innerHTML = quotes[randnumberr];
 
 function closediv() {
     document.querySelector(".helloholder").style.display = "none";
-    localStorage.setItem ('modal','true');
+    sessionStorage.setItem ('modal','true');
 }
 
 //Shoows welcsome card on load and resets on window close
 
 window.addEventListener ('load', () => {
-    if (localStorage.getItem ('modal') !== 'true') {
-    var timeout = 5000; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
+    if (sessionStorage.getItem ('modal') !== 'true') {
+    var timeout = 5; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
     }
 
     else {
-        localStorage.setItem ('modal','true');
+        sessionStorage.setItem ('modal','true');
         console.log ("seen");
     }
 })
 
-window.BeforeUnloadEvent = function () {
-    localStorage.clear();
-    return '';
-}
+// window.onunload = function () {
+//     sessionStorage.clear();
+//     return null;
+// }
+
