@@ -106,8 +106,7 @@ a {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     transition: all .3s ease;
-    opacity: 0;
-    /* pointer-events: none; */
+    opacity: 0;   
 }
 
 .hello i {
@@ -118,7 +117,6 @@ a {
     font-size: 1.2rem;
     cursor: pointer;
     transition: all .3s ease;
-    pointer-events: all;
 }
 
 .hello i:hover {

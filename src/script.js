@@ -68,6 +68,7 @@ document.getElementById("quotes").innerHTML = quotes[randnumberr];
 // Hides welcome card on click
 
 function closediv() {
+    document.querySelector(".helloholder").style.pointerEvents = "none";
     document.querySelector(".helloholder").style.display = "none";
     sessionStorage.setItem ('modal','true');
 }
@@ -85,8 +86,4 @@ window.addEventListener ('load', () => {
     }
 })
 
-// window.onunload = function () {
-//     sessionStorage.clear();
-//     return null;
-// }
 
