@@ -76,7 +76,8 @@ function closediv() {
 
 window.addEventListener ('load', () => {
     if (sessionStorage.getItem ('modal') !== 'true') {
-    var timeout = 5000; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
+        var timeout = 5000; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
+        var timeout = 5000; setTimeout ("document.querySelector('.helloholder').style.pointerEvents = 'all'", timeout);
     }
     
     else {
