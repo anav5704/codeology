@@ -57,9 +57,9 @@ document.getElementById("hellotext").innerHTML = greetings[randnumber];
 // Dynamic welcome quotes for loading screen
 
 var quotes = [
-    "\"Eeveryone can make a choice, but not eveyone can make the right choice.\" <br> <p>- Jasveen Singh.</p>",
-    "\"When life hits you, hit back.\" <br> <p> - Veer Chandra.</p>",
-    "\"It's cool to be good at many things, but it's better to be the best at one thing.\" <br> <p> - Indeevar Nair.</p>"
+    "\"Eeveryone can make a choice, but not eveyone can make the right choice.\" <br> <p>Jasveen Singh</p>",
+    "\"When life hits you, hit back.\" <br> <p> Veer Chandra</p>",
+    "\"It's cool to be good at many things, but it's better to be the best at one thing.\" <br> <p> Indeevar Nair</p>"
 ]
 
 var randnumberr = Math.floor(Math.random() * (quotes.length));
@@ -68,7 +68,6 @@ document.getElementById("quotes").innerHTML = quotes[randnumberr];
 // Hides welcome card on click
 
 function closediv() {
-    document.querySelector(".helloholder").style.pointerEvents = "none";
     document.querySelector(".helloholder").style.display = "none";
     sessionStorage.setItem ('modal','true');
 }
@@ -77,10 +76,11 @@ function closediv() {
 
 window.addEventListener ('load', () => {
     if (sessionStorage.getItem ('modal') !== 'true') {
-    var timeout = 5; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
+    var timeout = 5000; setTimeout ("document.querySelector('.helloholder').style.opacity = '1'", timeout);
     }
-
+    
     else {
+        document.querySelector(".helloholder").style.pointerEvents = "none";
         sessionStorage.setItem ('modal','true');
         console.log ("seen");
     }

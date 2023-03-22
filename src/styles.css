@@ -56,6 +56,7 @@ a {
     --blue:#38b6ff;
 }
 
+
 .loader {
     background-color: var(--grey);
     position: fixed;
@@ -70,7 +71,10 @@ a {
 }
 
 .loadercontent {
-    width: 350px;
+    width: 250px;
+    position: relative;
+    background-color: var(--grey);
+    padding: 10px;
 }
 
 .quotes p {
@@ -78,6 +82,55 @@ a {
     text-align: right;
 }
 
+.loaderholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.line-wobble {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3px;
+    width:100%;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+   }
+   
+   .line-wobble::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+   }
+   
+   .line-wobble::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: calc(var(--uib-line-weight) / 2);
+    animation: wobble 3s ease-in-out infinite;
+    transform: translateX(-90%);
+    background-color: var(--blue);
+   }
+   
+   @keyframes wobble {
+    0%,
+     100% {
+     transform: translateX(-90%);
+    }
+   
+    50% {
+     transform: translateX(90%);
+    }
+   }
+   
 .hello {
     position: absolute;
     top: 50%;
