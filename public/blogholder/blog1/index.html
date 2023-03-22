@@ -132,7 +132,15 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum obcaecati moles
   }
 </script>
 <script>
-    
+    var body = document.getElementById("body");
+    window.addEventListener("load" , function(){
+        body.style.overflowY="scroll";
+    })
+
+    var loader = document.querySelector(".loader");
+    window.addEventListener("load" , function(){
+        loader.style.display="none";
+    })
 </script>
 </body>
 </html>
