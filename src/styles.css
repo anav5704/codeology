@@ -82,13 +82,6 @@ a {
     text-align: right;
 }
 
-.loaderholder {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
 .line-wobble {
     position: relative;
     display: flex;
@@ -98,6 +91,8 @@ a {
     width:100%;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
+    margin-bottom: 15px;
+    border-radius: 15px;
    }
    
    .line-wobble::before {
@@ -107,14 +102,13 @@ a {
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.1;
    }
    
    .line-wobble::after {
     content: '';
     height: 100%;
     width: 100%;
-    border-radius: calc(var(--uib-line-weight) / 2);
+    border-radius: 15px;
     animation: wobble 3s ease-in-out infinite;
     transform: translateX(-90%);
     background-color: var(--blue);
