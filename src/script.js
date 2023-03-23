@@ -10,7 +10,7 @@ ham.addEventListener('click', () => {
 // Socials follower count varibles
 
 let x =document.getElementById("igfollowercount")
-x.innerHTML = " 850 ";
+x.innerHTML = " 900 ";
 // let y =document.getElementById("ytfollowercount")
 // y.innerHTML = " 10 ";
 // let z =document.getElementById("ttfollowercount")
@@ -72,7 +72,7 @@ function closediv() {
     sessionStorage.setItem ('modal','true');
 }
 
-//Shoows welcsome card on load and resets on window close
+// Shoows welcsome card on load and resets on window close
 
 window.addEventListener ('load', () => {
     if (sessionStorage.getItem ('modal') !== 'true') {
