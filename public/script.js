@@ -111,6 +111,7 @@ window.onscroll = () => {
 }
 
 // Email List submissioin form 
+
 let sub = document.querySelector(".sub")
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwjpN5B3DIR_aaSdXKRiX-k5iL1s6ziNZpi5s4PLDe6XWm3IbyS-SWn2T-8tXgb5Pk/exec'
 const form = document.forms['submit-to-google-sheet']
@@ -139,6 +140,8 @@ function sent() {
         sub.removeAttribute("disabled");
     }, 5000);
 }
+
+// pls work
 
 
 
