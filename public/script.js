@@ -134,7 +134,7 @@ function sent() {
     var timeout = 5000; setTimeout ("sending.style.opacity = '0'", timeout);
     setTimeout(() => {
         sub.setAttribute("disabled", null);
-    }, 50);
+    }, 10);
     setTimeout(() => {
         sub.removeAttribute("disabled");
     }, 5000);
