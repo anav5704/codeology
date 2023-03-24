@@ -110,7 +110,7 @@ window.onscroll = () => {
     } 
 }
 
-// Email List submissioin form
+// Email List submissioin form 
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwjpN5B3DIR_aaSdXKRiX-k5iL1s6ziNZpi5s4PLDe6XWm3IbyS-SWn2T-8tXgb5Pk/exec'
 const form = document.forms['submit-to-google-sheet']
@@ -120,9 +120,32 @@ form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
+        document.querySelector(".sending").style.opacity = "0";
+        document.querySelector(".sub").style.cursor = "pointer";
         done.style.opacity = '1';
         var timeout = 5000; setTimeout ("done.style.opacity = '0'", timeout);
         form.reset();
     })
     .catch(error => console.error('Error!', error.message))
 })
+
+// prevet user from mistakenly spamming email for newsletters
+
+document.getElementById("mailform").addEventListener("keyup", function() {
+var userInput = document.querySelector('#name').value;
+var passInput = document.querySelector('#mail').value;
+if (userInput !== '' && passInput !== '') {
+    document.querySelector('.sub').removeAttribute("disabled");
+  
+} else {
+    document.querySelector('.sub').setAttribute("disabled", null);
+}  
+});
+
+function sent() {
+    document.querySelector(".sending").style.opacity = "1";
+    document.querySelector(".sub").setAttribute("disabled");
+}
+
+
+

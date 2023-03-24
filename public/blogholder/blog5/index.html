@@ -78,12 +78,13 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque quasi
 
 
             <div class="featured">
-        <form action="" name="submit-to-google-sheet">
+        <form action="" name="submit-to-google-sheet" id = "mailform">
         <h2>Want Updates?</h2>
-        <input type="text" name="Name" id="" placeholder="Name" required>
-        <input type="email" name="Email" id="" placeholder="Email" required>
-        <a href=""><button class="featurecard sub" type="submit">Subscribe</button></a>
-        <a href=""><button class="featurecard done">Done <i class="fa-solid fa-check"></i></button></a>
+        <input type="text" name="Name" id="name" placeholder="Name" required >
+        <input  type="email" name="Email" id="mail" placeholder="Email" required>
+       <button disabled class="featurecard sub" type="submit" onclick = "sent()" >Subscribe</button>
+        <button class="featurecard sending"><i class="fa-solid fa-spinner"></i></button>
+        <button class="featurecard done"><i class="fa-solid fa-check"></i></button>
         <br>
         <br>
         </form>

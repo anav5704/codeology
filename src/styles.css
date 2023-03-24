@@ -504,13 +504,41 @@ footer {
     font-size: 1rem;
 }
 
-.done {
+.done,.sending {
     background-color: var(--blue);
     color: var(--grey);
     border: 2px solid var(--blue);
     cursor:default;
     opacity: 0;
     transition: all .3s ease;
+    pointer-events: none;
+}
+
+.done { 
+    transform: translateX(calc(-100% - 8px));
+}
+
+.sub:disabled {
+    cursor: default;
+}
+
+.sub:disabled:hover {
+    cursor: not-allowed;
+    border: 2px solid red;
+}
+
+.sending i {
+    animation: spin 1.3s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
 }
 
 @media only screen and (max-width: 700px) {
