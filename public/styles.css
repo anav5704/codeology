@@ -518,10 +518,6 @@ footer {
     transform: translateX(calc(-100% - 8px));
 }
 
-.sub:disabled {
-    opacity: .5;
-}
-
 .sub:disabled:hover {
     cursor: not-allowed;
     border: 2px solid red;

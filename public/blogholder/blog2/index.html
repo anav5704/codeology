@@ -154,7 +154,21 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero vero, quo susci
     })
 </script>
 <script>
-
+document.getElementById("mailform").addEventListener("keyup", function() {
+    var userInput = document.querySelector('#name').value;
+    var passInput = document.querySelector('#mail').value;
+    if (userInput !== '' && passInput !== '') {
+        document.querySelector('.sub').removeAttribute("disabled");
+      
+    } else {
+        document.querySelector('.sub').setAttribute("disabled", null);
+    }  
+});
+    
+function sent() {
+    document.querySelector(".sending").style.opacity = "1";
+    document.querySelector(".sub").setAttribute("disabled");
+}
 </script>
 </body>
 </html>

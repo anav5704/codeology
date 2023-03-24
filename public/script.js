@@ -123,37 +123,16 @@ form.addEventListener('submit', e => {
         document.querySelector(".sending").style.opacity = "0";
         document.querySelector(".sub").style.cursor = "pointer";
         done.style.opacity = '1';
-        document.querySelector('.sub').setAttribute("disabled", null);
         var timeout = 5000; setTimeout ("done.style.opacity = '0'", timeout);
         form.reset();
     })
     .catch(error => console.error('Error!', error.message))
 })
 
-// prevet user from mistakenly spamming email for newsletters
-
-document.getElementById("mailform").addEventListener("keyup", function() {
-var userInput = document.querySelector('#name').value;
-var passInput = document.querySelector('#mail').value;
-if (userInput !== '' && passInput !== '') {
-    document.querySelector('.sub').removeAttribute("disabled");
-  
-} else {
-    document.querySelector('.sub').setAttribute("disabled", null);
-}  
-});
-
 function sent() {
     document.querySelector(".sending").style.opacity = "1";
     document.querySelector(".sub").setAttribute("disabled");
 }
-
-// why does this chunk of code get deleted on its own
-
-
-
-
-
 
 
 
