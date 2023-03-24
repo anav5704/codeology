@@ -294,10 +294,6 @@ nav {
     height:fit-content;
     color: white;
     border: 2px solid var(--offwhite);
-    position: sticky;
-    bottom:  15vh;
-    top: 20px;
-    position: sticky;
     margin-bottom: 20px;
     border-radius: 5px;
 }
@@ -337,8 +333,8 @@ button  {
     width: 75%;
     margin: 0px auto;
     display: flex;
-    flex-wrap: wrap;
     color: white;
+    flex-direction: column;
 }
 
 .title {
@@ -433,7 +429,7 @@ footer {
     width: 100%;
 }
 
-form {
+.blogcard form {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -441,11 +437,9 @@ form {
     flex-direction: column;
 }
 
-
-form input, form textarea {
+.blogcard form input, .blogcard form textarea {
     transition: all .3s ease;
     border: solid 2px var(--grey);
-    font-size: 1rem;
     border-radius: 5px;
     padding: 10px;
     outline: none;
@@ -457,7 +451,7 @@ form input, form textarea {
     color: white;
 }
 
-form button {
+.blogcard form button {
    padding: 10px 20px;
     font-size: 1.1rem;
     color: var(--grey);
@@ -471,14 +465,42 @@ form button {
     margin-bottom: 10px;
 }
 
-form button:hover {
+.blogcard form button:hover {
      color: var(--grey);
     background-color: var(--blue);
     border: 2px solid var(--blue);
  }
 
-.form input:focus, textarea:focus {
+.form input:focus, .blogcard textarea:focus , .featured form input:focus {
     border: solid 2px var(--blue);
+}
+
+.featured form input {
+    transition: all .3s ease;
+    border: solid 2px var(--grey);
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    background: rgba(149, 157, 165, 0.1);
+    caret-color: var(--blue);
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.done {
+    background-color: lime;
+    color: var(--grey);
+    border: 2px solid lime;
+}
+
+.done:hover {
+    border: 2px solid lime;
+    cursor:default;
+
 }
 
 @media only screen and (max-width: 700px) {

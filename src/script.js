@@ -87,4 +87,23 @@ window.addEventListener ('load', () => {
     }
 })
 
+let sidebar = document.querySelector (".featured");
+
+window.onscroll = () => {
+    let scrollTop = window.scrollY;
+    let viewpoortheight = window.innerHeight;
+    let contentheight = sidebar.offsetHeight;
+    let navheight = nav.offsetHeight;
+
+    if(scrollTop > contentheight - viewpoortheight + navheight) {
+        sidebar.style.position  = "sticky";
+        sidebar.style.top  = '${scrollTop}px ';
+        sidebar.style.backgroundColor  = "red";
+
+    }
+    else{
+        sidebar.style.position  = "";
+        sidebar.style.backgroundColor  = "";
+    } 
+}
 
