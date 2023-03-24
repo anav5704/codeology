@@ -121,7 +121,7 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         document.querySelector(".sending").style.opacity = "0";
-        document.querySelector(".sub").style.cursor = "pointer";
+        document.querySelector(".sub").setAttribute("disabled");
         done.style.opacity = '1';
         var timeout = 5000; setTimeout ("done.style.opacity = '0'", timeout);
         form.reset();
@@ -129,10 +129,6 @@ form.addEventListener('submit', e => {
     .catch(error => console.error('Error!', error.message))
 })
 
-function sent() {
-    document.querySelector(".sending").style.opacity = "1";
-    document.querySelector(".sub").setAttribute("disabled");
-}
 
 
 
