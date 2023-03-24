@@ -518,8 +518,12 @@ footer {
     transform: translateX(calc(-100% - 8px));
 }
 
+.sub:disabled {
+    cursor: pointer;
+}
+
 .sub:disabled:hover {
-    cursor: not-allowed;
+    cursor:pointer;
     border: 2px solid red;
 }
 

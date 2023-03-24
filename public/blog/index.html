@@ -194,17 +194,12 @@ z            <div class="img"><img src="/img/00.png" alt=""></div>
     var userInput = document.querySelector('#name').value;
     var passInput = document.querySelector('#mail').value;
     if (userInput !== '' && passInput !== '') {
-        document.querySelector('.sub').removeAttribute("disabled");
-      
-    } else {
+        document.querySelector('.sub').removeAttribute("disabled"); 
+    }
+    else {
         document.querySelector('.sub').setAttribute("disabled", null);
     }  
 });
-    
-function sent() {
-    document.querySelector(".sending").style.opacity = "1";
-    document.querySelector(".sub").setAttribute("disabled");
-}
 </script>
 </body>
 </html>

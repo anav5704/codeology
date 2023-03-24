@@ -111,23 +111,35 @@ window.onscroll = () => {
 }
 
 // Email List submissioin form 
-
+let sub = document.querySelector(".sub")
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwjpN5B3DIR_aaSdXKRiX-k5iL1s6ziNZpi5s4PLDe6XWm3IbyS-SWn2T-8tXgb5Pk/exec'
 const form = document.forms['submit-to-google-sheet']
 let done = document.querySelector(".done");
+let sending = document.querySelector(".sending");
 
 form.addEventListener('submit', e => {
   e.preventDefault()
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         document.querySelector(".sending").style.opacity = "0";
-        document.querySelector(".sub").setAttribute("disabled");
         done.style.opacity = '1';
         var timeout = 5000; setTimeout ("done.style.opacity = '0'", timeout);
         form.reset();
     })
     .catch(error => console.error('Error!', error.message))
 })
+
+function sent() {
+    sending.style.opacity = "1";
+    var timeout = 5000; setTimeout ("sending.style.opacity = '0'", timeout);
+    setTimeout(() => {
+        sub.setAttribute("disabled", null);
+    }, 50);
+    setTimeout(() => {
+        sub.removeAttribute("disabled");
+    }, 5000);
+}
+
 
 
 
