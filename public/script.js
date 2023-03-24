@@ -141,10 +141,6 @@ function sent() {
     }, 5000);
 }
 
-// pls work
-
-
-
 
 
 
