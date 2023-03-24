@@ -72,10 +72,10 @@
     </div>
 
             <div class="featured">
-        <form action="">
+        <form action="" name="submit-to-google-sheet">
         <h2>Want Updates?</h2>
-        <input type="name" name="" id="" placeholder="Name">
-        <input type="email" name="" id="" placeholder="Email">
+        <input type="text" name="Name" id="" placeholder="Name" required>
+        <input type="email" name="Email" id="" placeholder="Email" required>
         <a href=""><button class="featurecard sub" type="submit">Subscribe</button></a>
         <a href=""><button class="featurecard done">Done <i class="fa-solid fa-check"></i></button></a>
         <br>
@@ -106,6 +106,7 @@
         <h2>Anav Himself</h2>
         <a href="https://www.instagram.com/partially_unblind/"><button class="featurecard pop">Personal Instagram</button></a>
         <a href="https://dinghydev.netlify.app/"><button class="featurecard pop">Personal Portfolio</button></a>
+        <div class="ghost"></div>
     </div>
 
     </section>
@@ -143,6 +144,9 @@
     window.addEventListener("load" , function(){
         loader.style.display="none";
     })
+</script>
+<script>
+
 </script>
 </body>
 </html>

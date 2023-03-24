@@ -87,23 +87,42 @@ window.addEventListener ('load', () => {
     }
 })
 
+// 0 f-ing idea how this works but it does. Code for sidebar to stick when it has fully scrolled
+
 let sidebar = document.querySelector (".featured");
+let ghost = document.querySelector (".ghost");
 
 window.onscroll = () => {
     let scrollTop = window.scrollY;
     let viewpoortheight = window.innerHeight;
     let contentheight = sidebar.offsetHeight;
     let navheight = nav.offsetHeight;
+    let ghostheight = ghost.offsetHeight;
+    let big_brain_anav_math_moment = contentheight - viewpoortheight + navheight/2  ;
 
-    if(scrollTop > contentheight - viewpoortheight + navheight) {
+    if(scrollTop > contentheight - viewpoortheight + navheight + ghostheight) {
         sidebar.style.position  = "sticky";
-        sidebar.style.top  = '${scrollTop}px ';
-        sidebar.style.backgroundColor  = "red";
-
+        sidebar.style.top  = -big_brain_anav_math_moment + "px";
     }
     else{
         sidebar.style.position  = "";
-        sidebar.style.backgroundColor  = "";
+        sidebar.style.top  = " ";
     } 
 }
 
+// Email List submissioin form
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwjpN5B3DIR_aaSdXKRiX-k5iL1s6ziNZpi5s4PLDe6XWm3IbyS-SWn2T-8tXgb5Pk/exec'
+const form = document.forms['submit-to-google-sheet']
+let done = document.querySelector(".done");
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        done.style.opacity = '1';
+        var timeout = 5000; setTimeout ("done.style.opacity = '0'", timeout);
+        form.reset();
+    })
+    .catch(error => console.error('Error!', error.message))
+})
