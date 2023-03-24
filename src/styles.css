@@ -519,7 +519,7 @@ footer {
 }
 
 .sub:disabled {
-    cursor: default;
+    opacity: .5;
 }
 
 .sub:disabled:hover {

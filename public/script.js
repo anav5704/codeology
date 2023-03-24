@@ -123,6 +123,7 @@ form.addEventListener('submit', e => {
         document.querySelector(".sending").style.opacity = "0";
         document.querySelector(".sub").style.cursor = "pointer";
         done.style.opacity = '1';
+        document.querySelector('.sub').setAttribute("disabled", null);
         var timeout = 5000; setTimeout ("done.style.opacity = '0'", timeout);
         form.reset();
     })
@@ -146,6 +147,14 @@ function sent() {
     document.querySelector(".sending").style.opacity = "1";
     document.querySelector(".sub").setAttribute("disabled");
 }
+
+// why does this chunk of code get deleted on its own
+
+
+
+
+
+
 
 
 
