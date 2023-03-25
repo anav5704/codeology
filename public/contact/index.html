@@ -13,6 +13,7 @@
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body id="body">
+    
     <div class="loader">
     <div class="loadercontent">
         <div class="line-wobble"></div>
@@ -50,9 +51,9 @@
     </div>
     <div class="menus"  id="hamburgertoggle" >
         <ul id="mobilemenu">
-            <li><a class="" href="/index.html">Blogs</a></li>
-            <li><a class="" href="/about">About</a></li>
-            <li><a class="" href="/contact">Contact</a></li>
+            <li id="tab" class=""><a href="/index.html">Blogs</a></li>
+            <li id="tab"><a class="" id="tab" href="/about">About</a></li>
+            <li id="tab"><a class="" id="tab" href="/contact">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -70,14 +71,14 @@
         </div>
        <div class="blogcard">
                     <div class="form" id="form">
-                        <form action= "https://formsubmit.co/dinghydev@gmail.com" method="POST">
+                        <form action= "https://formsubmit.co/codeology.net@gmail.com" method="POST">
                             
                             <!-- honeyopt? -->
                             <input type="text" name="_honey" style="display:none">
                             <!-- disble captcha??? -->
                             <input type="hidden" name="_captcha" value="false">
                             <!-- success page:) -->
-                            <input type="hidden" name="_next" value="https://dinghydevhub.netlify.app/success" >
+                            <input type="hidden" name="_next" value="https://codeology.netlify.app/success" >
                             <input class="joe" type="text" name="Name" id="name" placeholder="Name" required>
                             <input class="joe" type="text" name="Phone" id="phone" placeholder="Phone Number"  required >
                             <input class="joe" type="email" name="Email" id="email" placeholder="E-mail Address" required >
@@ -119,6 +120,7 @@
         <a href=""><button class="featurecard">Programming</button></a>
         <a href=""><button class="featurecard">Study</button></a>
         <a href=""><button class="featurecard">Web Dev</button></a>
+        <a href=""><button class="featurecard">MS Word</button></a>
         <a href=""><button class="featurecard">Top 5</button></a>
         <br>
         <br>

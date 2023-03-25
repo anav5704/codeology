@@ -270,7 +270,7 @@ nav {
     transform: scaleX(1);
 }
 
-.active::after {
+.active:after {
     position: absolute;
     content: "";
     height: 2px;
@@ -282,6 +282,7 @@ nav {
     transform-origin: center;
     transition: all .3s ease;
     transform: scaleX(1);
+    z-index: 10000;
 }
 
 .body {
@@ -580,7 +581,6 @@ footer {
         z-index: 2;
         height: 100vh;
         width: 100%;
-        border-top: 2px solid var(--offwhite);
         background: rgba(255, 255, 255, 0.1);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
