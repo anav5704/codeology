@@ -12,7 +12,8 @@ image: /img/2.png
 ---
 **Lets build a C++ triangle pattern!**
 
-`#include<iostream>
+```
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -20,8 +21,7 @@ int main()
  while (x > 0){
 for ( i = 0; i < x; i ++){
  cout <<"  ";
- }`\
-`for (y = 0 ; y < z; y++) {
+ }for (y = 0 ; y < z; y++) {
 cout << " +";
  }
 cout << endl;
@@ -30,4 +30,5 @@ z+=2;
 }
 system ("PAUSE");
  return 0;
-}`
+}
+```
