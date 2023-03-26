@@ -6,6 +6,7 @@ publish: qqqq
 time: qqqqqq
 tags:
   - post
+  - latest
 layout: '''article.njk'''
 image: /img/2.png
 ---
