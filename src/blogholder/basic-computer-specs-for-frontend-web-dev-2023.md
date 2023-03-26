@@ -11,7 +11,7 @@ tags:
   - latest
 image: /img/2.png
 ---
-Frontend web development has become an essential part of building modern websites and web applications. It involves the use of different programming languages, frameworks, and tools to create the user-facing part of a website. However, before diving into frontend web development, it's important to understand the basic computer specifications required to get started. In this article, we'll discuss the essential computer specifications required for frontend web development and how to choose the right computer that suits your needs.
+Frontend web development has become an essential part of building modern websites and web applications. It involves the use of different programming languages, frameworks, and tools to create the user-facing part of a website. However, before diving into front-end web development, it's important to understand the basic computer specifications required to get started. In this article, we'll discuss the essential computer specifications required for frontend web development and how to choose the right computer that suits your needs.
 
 CPU
 
@@ -31,7 +31,7 @@ Although a strong graphics card is not required for frontend web development, ha
 
 Display
 
-\-Also necessary to front-end web development is a nice presentation. You must be able to clearly view every piece of your work when building a website. For web development, a display with a high resolution and outstanding colour accuracy is crucial.
+Also necessary to front-end web development is a nice presentation. You must be able to clearly view every piece of your work when building a website. For web development, a display with a high resolution and outstanding color accuracy is crucial.
 
 Conclusion
 
