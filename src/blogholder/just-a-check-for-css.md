@@ -10,7 +10,7 @@ tags:
 layout: article.njk
 image: /img/2.png
 ---
-**Lets build a C++ triangle pattern!**
+Lets build a C++ triangle pattern!
 
 ```
 #include<iostream>
