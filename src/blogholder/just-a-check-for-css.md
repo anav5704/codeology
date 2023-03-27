@@ -40,3 +40,5 @@ system ("PAUSE");
 return 0;
 }
 ```
+
+![](/img/1.png)
