@@ -368,7 +368,7 @@ button  {
 }
 
 .blogcard .details ul {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .blogcard h3 a, .blogcard h3 {
@@ -438,7 +438,7 @@ footer {
     width: 100%;
 }
 
-.blogcard h2 {
+.article h2 {
     margin-top: 20px;
     font-size: 1.3rem;
 }
@@ -751,3 +751,4 @@ p img {
         opacity: 1;
     }
 }
+
