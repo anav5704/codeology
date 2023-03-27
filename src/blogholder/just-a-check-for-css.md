@@ -12,6 +12,10 @@ image: /img/2.png
 ---
 Lets build a C++ triangle pattern!
 
+aaaaaaaaaaaaaaaaaaaaaa
+
+aaaaaaaaaaaaaaaaaaaaaa
+
 ```
 #include<iostream>
 using namespace std;
@@ -41,4 +45,10 @@ return 0;
 }
 ```
 
-![](/img/1.png)
+![null](/img/1.png)
+
+aaaaaaaaaaaaaaaaaaaaaaaa
+
+# aaaaaaaaaaaaaaaaaaaaaaaaaa
+
+## aaaaaaaaaaaaaaaaaaaaaaaaaaaa
