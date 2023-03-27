@@ -10,8 +10,9 @@ layout: 'base.njk'
             <p class= "user"><i class="fa-solid fa-user"></i> {{ author }} <i class="fa-solid fa-calendar-days"></i> {{ publish }} <i class="fa-solid fa-clock"></i> {{ time }}</p>
         </div>
         <h3>{{ title }}</h3>
+         {{ content | safe }}
         </div>
-        {{ content | safe }}
+       
     </div>
     </div>
 

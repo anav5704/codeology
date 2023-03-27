@@ -375,9 +375,9 @@ button  {
    color: var(--blue);
 }
 
-.details {
+/* .details {
     padding: 10px;
-}
+} */
 
 .writer {
     opacity: .3;
@@ -543,9 +543,9 @@ footer {
 }
 
 pre {
+    margin: 10px 0px;
     box-sizing: border-box;
     padding: 10px;
-    margin: 10px;
     border-radius: 5px;
     border: 2px solid var(--offwhite);
     ;
@@ -555,8 +555,13 @@ pre code{
     font-family: 'Source Code Pro', monospace;
 }
 
+.details{
+    padding: 10px;
+}
+
 p img {
     width: 100%;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 700px) {
