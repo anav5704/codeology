@@ -34,7 +34,7 @@ RAM, or random access memory, is the computer's short-term memory, where it temp
 
 
 
-## Storage 
+## Storage
 
 All of your files, including the tools and projects you use to code, are kept in storage. Due to its speed, dependability, and quietness, a solid-state drive (SSD) is favoured over a conventional hard disc. An SSD with at least 128GB of storage space is preferred; however, if you anticipate storing many huge files, you might want to think about getting one with a larger capacity.
 
