@@ -375,10 +375,6 @@ button  {
    color: var(--blue);
 }
 
-/* .details {
-    padding: 10px;
-} */
-
 .writer {
     opacity: .3;
 }
@@ -440,6 +436,11 @@ footer {
 
 .form {
     width: 100%;
+}
+
+.blogcard h2 {
+    margin-top: 20px;
+    font-size: 1.3rem;
 }
 
 .blogcard form {
