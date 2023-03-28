@@ -7,7 +7,8 @@ author: Anav
 publish: 06/07/23
 time: 3 mins
 tags:
-  - post. latest
+  - post
+  - latest
 layout: article.njk
 image: /img/1.png
 ---
