@@ -60,6 +60,11 @@ a {
     content: '👉';
 }
 
+.blogcard .details ul {
+    padding-left: 25px;
+    
+}   
+
 .loader {
     background-color: var(--grey);
     position: fixed;
@@ -365,10 +370,6 @@ button  {
     margin-bottom: 20px;
     border-radius: 5px;
     overflow: hidden;
-}
-
-.blogcard .details ul {
-    padding-left: 30px;
 }
 
 .blogcard h3 a, .blogcard h3 {
