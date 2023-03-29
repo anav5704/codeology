@@ -6,7 +6,7 @@ layout: 'base.njk'
 
     <div class="main">
         <div class="title"><h2>{{ title }} 🚀</h2></div>
-        {%- for post in collections.latest | reverse -%}
+        {%- for post in collections.latest  -%}
             {% include 'blogcard.njk' %}
         {%- endfor -%}
     </div>
