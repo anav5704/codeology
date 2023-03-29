@@ -1,5 +1,5 @@
 ---
-title: 5 amazign tips that can help you learn coding faster!
+title: 5 amazing tips that can help you learn coding faster!
 description: >-
   It can be an exciting and exhilarating experience to learn to code, but it can
   also be challenging, especially for beginners ...
