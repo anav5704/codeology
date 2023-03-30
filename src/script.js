@@ -10,7 +10,7 @@ ham.addEventListener('click', () => {
 // Socials follower count varibles
 
 let x =document.getElementById("igfollowercount")
-x.innerHTML = " 900 ";
+x.innerHTML = " 1000 ";
 // let y =document.getElementById("ytfollowercount")
 // y.innerHTML = " 10 ";
 // let z =document.getElementById("ttfollowercount")
