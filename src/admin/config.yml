@@ -18,5 +18,6 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["post"]}    
       - { label: "Layout", name: "layout", widget: "string", default: 'article.njk'}    
       - { label: "Featured Image", name: "image", widget: "image"}
+      - { label: "Alt text", name: "alt", widget: "string"}
       - { label: "Body", name: "body", widget: "markdown"}    
 
