@@ -798,8 +798,8 @@ p img {
         padding:10px;
     }
 
-    .herotxt p, button {
-        margin: 10px 0px;
+    .herotxt p, .herotxt button {
+        margin:10px 0px;
     }
 
     .hero h1 {
