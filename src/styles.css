@@ -298,6 +298,11 @@ nav {
     display: flex;
 }
 
+.bodyhero {
+    padding-top: 0px;
+
+}
+
 .featured {
     width: 25%;
     padding: 10px;
@@ -333,7 +338,11 @@ button  {
     font-size: 1rem;
 }
 
-.details button , .hello button{
+.hero button {
+    margin-right: 10px;
+}
+
+.details button , .hello button, .hero button{
     padding: 10px 20px;
     font-size: 1.1rem;
     color: var(--grey);
@@ -345,11 +354,10 @@ button  {
     border-radius: 5px;
 }
 
-.details button:hover, .hello button:hover {
+.details button:hover, .hello button:hover, .hero button:hover {
   color: var(--grey);
   background-color: var(--blue);
   border: 2px solid var(--blue);
-
 }
 
 .main {
@@ -358,6 +366,37 @@ button  {
     display: flex;
     color: white;
     flex-direction: column;
+}
+
+.hero {
+    border-radius: 5px;
+    background-color: var(--grey);
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.heroimg img {
+    height: 100%;
+}
+
+.herotxt {
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}  
+
+.herotxt span {
+    color: var(--blue);
+}
+
+.herotxt h1 {
+    font-size: 2rem;
 }
 
 .title {
@@ -718,6 +757,7 @@ p img {
         margin-left: auto;
         margin-right: auto;
         position: relative !important;
+        top: 0 !important;
     }
 
     footer {
@@ -743,6 +783,27 @@ p img {
     .legal {
         flex-direction: column;
         width: 90%;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+
+    .heroimg img {
+        width: 100%;
+    }
+
+    .herotxt {
+        padding:10px;
+    }
+
+    .herotxt p, button {
+        margin: 10px 0px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
     }
 
 }

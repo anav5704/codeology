@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content= "">
-   <meta name="keywords" content="">
-    <title>Latest Blogs</title>
+    <meta name="description" content= "{{ pageDescription }}">
+   <meta name="keywords" content="{{ keywords }}">
+    <title>{{ title }}</title>
     <script src="https://kit.fontawesome.com/45f1e4db6d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,76 +17,13 @@
 </head>
 <body id="body">
     
-    <div class="loader">
-    <div class="loadercontent">
-        <div class="line-wobble"></div>
-        <h2 class="quotes" id="quotes"></h2>
-   </div>
-</div>
-
-
-    <div class="helloholder">
-<div class="hello">
-    <i onclick="closediv()" class="fa-solid fa-xmark"></i>
-    <div class="img"><img src="/img/hero.png" alt=""></div>
-    <h2 id = "hellotext"></h2>
-    <p>My name is Anav and I made this website; pretty cool right? Feel free to message me if you have any questions.</p>
-    <a href="https://www.instagram.com/partially_unblind/" onclick="closediv()"><button>Let's Talk</button></a>
-</div>
-</div>
-    <div class="navholder" id = "nav">
-<nav>
-    <div class="logo">
-        <a href="/index.html">Codeology</a>
-        <button id="btn" class="btnham">
-            <svg class="ham hamRotate ham4" viewbox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
-                <path
-                        class="line top"
-                        d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
-                <path
-                        class="line middle"
-                        d="m 70,50 h -40" />
-                <path
-                        class="line bottom"
-                        d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
-                </svg>
-        </button>
-    </div>
-    <div class="menus"  id="hamburgertoggle" >
-        <ul id="mobilemenu">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/latest">Blogs</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a  href="/contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-</div>
-
+    {% include 'loader.njk'%}
+    {% include 'hello.njk' %}
+    {% include 'header.njk' %}
     <section class="body">
-        
-<div class="hero">
-    <div class="herotxt">
-       <h1 id="herotext"></h1><h1>Welcome to <span>Codeology.net!</span></h1>
-       <p>Explore web development and programming with our expert-written blog and fun quizzes. Stay ahead of the curve and expand your skills. Join our passionate community today.</p>
-        <div class="btns"><a href="/latest"><button>Blogs</button></a><a href=""><button>Quizes</button></a></div>
-    </div>
-    <div class="heroimg"><img src="img/heroo.png" alt=""></div>
-</div>
-
-
+        {{ content | safe }}
     </section>
-    <footer>
-    <div class="copyright"><i class="fa-solid fa-copyright"></i> Copyright 2023 Anav Chand</div>
-    <div class="legal">
-        <a href="/about">About Us</a>
-        <a href="/contact">Contact Us</a>
-        <a href="/Disclaimer">Disclaimer</a>
-        <a href="/privacy">Privacy Policy</a>
-        <a href="/terms">Terms and Conditions</a>
-    </div>
-</footer>
-
+    {% include 'footer.njk' %}
 
 <script>
     // Mobile navbar hamgurger toggle
