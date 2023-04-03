@@ -141,9 +141,19 @@ function sent() {
     }, 5000);
 }
 
+const parentElement = document.querySelector(".quiz");
+const allChildren = parentElement.querySelectorAll(":scope > button");
 
-    
-
+allChildren.forEach(function (i) {
+  i.addEventListener('click', function() {
+    if (i.hasAttribute('id') ) {
+        i.style.border = "2px solid lime";
+    }
+    else {
+    i.style.border = "2px solid red";
+    }
+  });
+});
 
 
 

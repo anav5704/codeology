@@ -7,6 +7,7 @@
     font-family: 'League Spartan', sans-serif;
     font-family: 'Poppins', sans-serif;
     -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -442,14 +443,6 @@ button  {
   width: 100%;
 }
 
-.featurecard  {
-    padding: 5px 10px;
-    margin: 4px 2px;
-    transition: all .3s ease;
-    border: 2px solid var(--grey);
-    border-radius: 5px;
-}
-
 .featurecard:hover  {
     border: 2px solid var(--blue);
 }
@@ -557,6 +550,28 @@ footer {
     font-size: 1rem;
 }
 
+.featurecard ,.quiz button   {
+    padding: 5px 10px;
+    margin: 4px 2px;
+    transition: all .3s ease;
+    border: 2px solid var(--grey);
+    border-radius: 5px;
+}
+
+.quiz button  {
+    border: 2px solid var(--offwhite);
+}
+
+.quiz button:hover  {
+    border: 2px solid var(--blue);
+    background-color: var(--grey);
+    color: white;
+}
+
+.question {
+    margin-top: 10px;
+}
+
 .done,.sending {
     background-color: var(--blue);
     color: var(--grey);
@@ -609,6 +624,10 @@ pre code{
 
 .details{
     padding: 10px;
+}
+
+.quiz button{
+    margin-right: 10px;
 }
 
 p img {
