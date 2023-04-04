@@ -141,19 +141,26 @@ function sent() {
     }, 5000);
 }
 
-const parentElement = document.querySelector(".quiz");
-const allChildren = parentElement.querySelectorAll(":scope > button");
+const parentElements = document.querySelectorAll(".quiz");
+parentElements.forEach(function(parentElement) {
+  const allChildren = parentElement.querySelectorAll("button");
 
-allChildren.forEach(function (i) {
-  i.addEventListener('click', function() {
-    if (i.hasAttribute('id') ) {
-        i.style.border = "2px solid lime";
-    }
-    else {
-    i.style.border = "2px solid red";
-    }
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        console.log("click");
+      } else {
+        child.style.border = "2px solid red";
+        console.log("click");
+      }
+    });
   });
 });
+
+
+
+
 
 
 
