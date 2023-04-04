@@ -9,6 +9,7 @@ time: 3 mins
 tags:
   - post
   - latest
+  - programming
 layout: article.njk
 image: /img/1.png
 alt: books

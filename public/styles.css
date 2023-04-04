@@ -60,7 +60,7 @@ a {
 }
 
 .blogcard .details ul li::marker {
-    content: '👉';
+    content: '👉 ';
 }
 
 .blogcard .details ul {
@@ -569,7 +569,7 @@ footer {
 }
 
 .question {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .done,.sending {

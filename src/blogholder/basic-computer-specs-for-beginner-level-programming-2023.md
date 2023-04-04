@@ -9,6 +9,7 @@ time: 2.5  mins
 tags:
   - post
   - latest
+  - programming
 layout: article.njk
 image: /img/2.png
 alt: cpu
