@@ -487,6 +487,10 @@ footer {
     font-size: 1.3rem;
 }
 
+.details a {
+    color: var(--blue);
+}
+
 .blogcard form {
     margin-right: auto;
     margin-left: auto;

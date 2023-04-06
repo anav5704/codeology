@@ -1,4 +1,4 @@
-/* github streaks day 4 */
+/* Made with 💙 by Anav */
 
 * {
     padding: 0;
@@ -485,6 +485,10 @@ footer {
 .article h2 {
     margin-top: 20px;
     font-size: 1.3rem;
+}
+
+.details a {
+    color: var(--blue);
 }
 
 .blogcard form {
