@@ -4,7 +4,7 @@ description: >-
   It can be an exciting and exhilarating experience to learn to code, but it can
   also be challenging, especially for beginners ...
 author: Anav
-publish: 06/07/23
+publish: 06/04/23
 time: 3 mins
 tags:
   - post
