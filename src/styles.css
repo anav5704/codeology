@@ -211,44 +211,32 @@ a {
    width: 90%;
    left: 50%;
    transform: translateX(-50%);
-   bottom: -25%;
+   bottom: -12px;
 }
 
 .carrd p {
     font-weight: 900;
     color: var(--grey);
-    margin-top: 10px;
+    margin-top:20px;
+    font-size: 1.2rem;
 }
 
 .carrd button {
-    padding: 10px 10px;
+    padding: 15px 10px;
     margin: 4px 2px;
     transition: all .3s ease;
     border: 2px solid var(--grey);
     border-radius: 5px;
     width: 90%;
-}
-
-.carrd a {
-    position: relative;
-}
-
-.carrd a i{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10px;
-    background-color: white;
-    color: var(--blue);
-    height: 30px;
-    width: 30px;
-    display: grid;
-    place-content: center;
-    border-radius: 5px;
+    font-size: 1.25rem;
 }
 
 .linka a {
     width: 80%;
+}
+
+.blue {
+    color: var(--blue);
 }
 
 .links {
@@ -256,7 +244,7 @@ a {
     background-color: var(--blue);
     border-radius: 10px;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .carrd button:hover {
