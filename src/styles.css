@@ -24,6 +24,18 @@ h2 {
     src: local('Sweet Apricot Regular'), url('SweetApricot-PKM0m.woff') format('woff');
 }
 
+.linkbody::-webkit-scrollbar-track {
+    display: none;
+}
+
+.linkbody::-webkit-scrollbar-thumb {
+    display: none;
+} 
+
+.linkbody::-webkit-scrollbar-thumb:hover {
+    display: none;
+} 
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -45,6 +57,10 @@ body {
     background-color: var(--black);
    position: relative;
    overflow: hidden;
+}
+
+.linkbody {
+    overflow-y: scroll;
 }
 
 a {
@@ -134,8 +150,8 @@ a {
     50% {
      transform: translateX(90%);
     }
-   }
-   
+}
+
 .hello {
     position: absolute;
     top: 50%;
@@ -168,6 +184,86 @@ a {
     pointer-events: none;
 }
 
+.carrd {
+    margin: 10px auto 0px auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.carrd h2 {
+ margin: 10px 0px 10px 0px;  
+}
+
+.carrd h4 {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.carrd h4:after {
+   position: absolute;
+   content: "";
+   height: 2px;
+   background-color: var(--offwhite);
+   width: 90%;
+   left: 50%;
+   transform: translateX(-50%);
+   bottom: -25%;
+}
+
+.carrd p {
+    font-weight: 900;
+    color: var(--grey);
+    margin-top: 10px;
+}
+
+.carrd button {
+    padding: 10px 10px;
+    margin: 4px 2px;
+    transition: all .3s ease;
+    border: 2px solid var(--grey);
+    border-radius: 5px;
+    width: 90%;
+}
+
+.carrd a {
+    position: relative;
+}
+
+.carrd a i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    background-color: white;
+    color: var(--blue);
+    height: 30px;
+    width: 30px;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+}
+
+.linka a {
+    width: 80%;
+}
+
+.links {
+    text-align: center;
+    background-color: var(--blue);
+    border-radius: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.carrd button:hover {
+    background-color: var(--blue);
+    color: var(--grey);
+}
+
 .hello i {
     position: absolute;
     right: 8px;
@@ -182,7 +278,7 @@ a {
     color: var(--blue);
 }
 
-.hello .img {
+.hello .img, .carrd .img {
     border-radius: 50%;
     height: 150px;
     width: 150px;
@@ -191,7 +287,7 @@ a {
     margin-bottom: 5px;
 }
 
-.hello .img img {
+.hello .img img, .carrd .img img {
     width: 100%;
     scale: 1.025;
 }
@@ -830,6 +926,10 @@ p img {
 
     .hero h1 {
         font-size: 1.5rem;
+    }
+
+    .carrd {
+        width: 90%;
     }
 
 }
