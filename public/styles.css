@@ -252,15 +252,20 @@ a {
 lord-icon {
    position: absolute;
    top: -80px;
-   left: -50%;
+
    rotate: -15deg;
    animation: float 5s ease infinite;
 }
 
+.w {
+    left: -35%;
+}
+
+
 .q {
     position: absolute;
     top: -90px;
-    left: 100%;
+    right: -35%;
     rotate: 15deg;
     animation-delay: 2.5s;
 }
