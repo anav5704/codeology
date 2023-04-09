@@ -258,14 +258,14 @@ lord-icon {
 }
 
 .w {
-    left: -35%;
+    left: -45%;
 }
 
 
 .q {
     position: absolute;
     top: -90px;
-    right: -35%;
+    right: -45%;
     rotate: 15deg;
     animation-delay: 2.5s;
 }
