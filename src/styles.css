@@ -252,22 +252,21 @@ a {
 lord-icon {
    position: absolute;
    top: -80px;
-
    rotate: -15deg;
-   animation: float 5s ease infinite;
 }
 
 .w {
-    left: -45%;
+    left: -50%;
+    animation: float 5s ease infinite;
 }
 
 
 .q {
     position: absolute;
-    top: -90px;
-    right: -45%;
+    top: -70px;
+    right: -50%;
     rotate: 15deg;
-    animation-delay: 2.5s;
+    animation: float2 5s ease infinite;
 }
 
 @keyframes float {
@@ -282,6 +281,20 @@ lord-icon {
     100%{
         top: -90px;
     }
+}
+
+@keyframes float2 {
+    0%{
+       top: -70px;
+   }
+
+   50%{
+       top: -90px;
+   }
+
+   100%{
+       top: -70px;
+   }
 }
 
 .carrd button:hover {
