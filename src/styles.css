@@ -262,7 +262,7 @@ lord-icon {
     top: -90px;
     left: 100%;
     rotate: 15deg;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
 }
 
 @keyframes float {
