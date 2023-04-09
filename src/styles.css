@@ -196,27 +196,18 @@ a {
 
 .carrd .img{
     border: 3px solid white;
-    opacity: 0;
-    animation: appear 1s ease;
-    animation-fill-mode: forwards;
-    box-shadow: 0px 0px 30px 3px var(--blue);
+    /* box-shadow: 0px 0px 30px 3px var(--blue); */
 }
 
 .carrd h2 {
-    opacity: 0;
     margin: 10px 0px 10px 0px;  
     position: relative;
-    animation: load .7s ease .3s;
-    animation-fill-mode: forwards;
 }
 
 .carrd h4 {
     text-align: center;
     margin-bottom: 30px;
     position: relative;
-    opacity: 0;
-    animation: load .7s ease .6s;
-    animation-fill-mode: forwards;
 }
 
 .carrd h4:after {
@@ -261,9 +252,6 @@ a {
     border-radius: 10px;
     width: 100%;
     padding-bottom: 20px;
-    opacity: 0;
-    animation: load .7s ease .9s;
-    animation-fill-mode: forwards;
 }
 
 lord-icon {
