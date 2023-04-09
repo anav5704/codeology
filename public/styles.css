@@ -196,6 +196,7 @@ a {
 
 .carrd h2 {
  margin: 10px 0px 10px 0px;  
+ position: relative;
 }
 
 .carrd h4 {
@@ -246,6 +247,36 @@ a {
     border-radius: 10px;
     width: 100%;
     padding-bottom: 20px;
+}
+
+lord-icon {
+   position: absolute;
+   top: -80px;
+   left: -50%;
+   rotate: -15deg;
+   animation: float 5s ease infinite;
+}
+
+.q {
+    position: absolute;
+    top: -90px;
+    left: 100%;
+    rotate: 15deg;
+    animation-delay: 2s;
+}
+
+@keyframes float {
+     0%{
+        top: -90px;
+    }
+
+    50%{
+        top: -70px;
+    }
+
+    100%{
+        top: -90px;
+    }
 }
 
 .carrd button:hover {
