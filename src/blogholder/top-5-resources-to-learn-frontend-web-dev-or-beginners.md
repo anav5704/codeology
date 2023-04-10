@@ -4,7 +4,7 @@ description: >-
   Are you interested in front-end development but not sure where to begin?
   Knowing which resources to use can be difficult...
 author: Anav
-publish: 10/04/23
+date: 2023-04-10
 time: 3 mins
 tags:
   - post
@@ -28,7 +28,8 @@ pageDescription: >-
   Udemy courses and YouTube channels, you'll have a firm grasp of where to begin
   and how to continue on your path to becoming a front-end developer.
 ---
-Are you interested in front-end development but not sure where to begin? Knowing which resources to use can be difficult with so many online. To assist novices in finding the top resources for learning frontend development, we have put together this in-depth guide. We provide a variety of learning options, including self-paced courses, curriculum, and visual tutorials. This guide will introduce you to some of the best resources out there, such as free online tutorials, documents, and courses, as well as some premium resources that are well worth the money. You'll have a firm grasp of where to begin and how to continue on your path to becoming a front-end developer by the time you finish reading this tutorial. So let's start!
+
+Are you interested in front-end development but not sure where to begin? Knowing which resources to use can be difficult with so many online. To assist novices in finding the top resources for learning frontend development, we have put together this in-depth guide. We provide a variety of learning options, including self-paced courses, curriculum, and visual tutorials. This guide will introduce you to some of the best resources out there, such as free online tutorials, documents, and courses, as well as some premium resources that are well worth the money. You'll have a firm grasp of where to begin and how to continue on your path to becoming a front-end developer by the time you finish reading this tutorial. So let's start!
 
 
 

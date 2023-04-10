@@ -2,7 +2,7 @@
         <div class="img"><a href="{{ post.url }}"><img src="{{ post.data.image}}" alt="{{ post.data.alt}}"></a></div>
         <div class="details">
         <div class="writer">
-            <p class="user"><i class="fa-solid fa-user"></i>{{ post.data.author }}<i class="fa-solid fa-calendar-days"></i>{{ post.data.publish }}<i class="fa-solid fa-clock"></i>{{ post.data.time }}</p>
+            <p class="user"><i class="fa-solid fa-user"></i>{{ post.data.author }}<i class="fa-solid fa-calendar-days"></i>{{ post.data.date | postDate }}<i class="fa-solid fa-clock"></i>{{ post.data.time }}</p>
         </div>
         <a href=" {{ post.url }}"><h3>{{ post.data.title }}</h3></a>
         <p>{{ post.data.description }}</p>
