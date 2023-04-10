@@ -1,10 +1,10 @@
 ---
-title: Top 5 Resources to learn  Frontend web dev or Beginners
+title: Top 5 Resources to learn  frontend web dev or beginners!
 description: >-
   Are you interested in front-end development but not sure where to begin?
   Knowing which resources to use can be difficult...
 author: Anav
-date: 2023-04-10
+date: 2023-04-10T00:00:00.000Z
 time: 3 mins
 tags:
   - post
