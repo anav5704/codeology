@@ -4,7 +4,7 @@ description: >-
   Welcome to the exciting world of programming! One of the first things you'll
   need as a newbie is a computer with the necessary . . .
 author: 'Anav '
-date: 2023-04-04
+date: 2023-04-04T00:00:00.000Z
 time: 2.5  mins
 tags:
   - post
@@ -34,7 +34,7 @@ The Central Processor Unit, often known as the processor, is the brain of the co
 
 Your computer's graphics card is in charge of rendering images and videos. Dedicated graphics cards are not required for programming jobs; nevertheless, most integrated graphics would be adequate for simple programming. But, you might want to think about a dedicated graphics card if you intend to perform more complicated programming tasks that demand intensive graphics processing.
 
-## **RAM - Random Access** Memory
+## RAM - Random Access Memory
 
 RAM, or random access memory, is the computer's short-term memory, where it temporarily stores information and commands while it is operating. The more Memory your computer has, the more data and programs it can manage simultaneously. For beginners, 4GB of RAM is recommended, but 8GB or more would be ideal for handling more complex apps and multitasking.
 
