@@ -1,0 +1,18 @@
+---
+title : C++ Blogs
+layout: 'base.njk'
+keywords: "web development, programming, HTML, CSS, JavaScript, web design, front-end development, back-end development, web frameworks, web technologies, web tools, web development trends, web development tips, web development techniques, web development resources, programming languages, web development blogs, programming blogs, web development articles, programming articles"
+pageDescription: "Stay informed and inspired with our comprehensive collection of blogs on web development and programming. Our platform offers a wealth of resources for both beginner and advanced developers, covering topics such as HTML, CSS, JavaScript, web design, front-end development, back-end development, web frameworks, and much more. Explore the latest trends, tools, and techniques to enhance your skills and achieve your development goals."
+---
+
+ <div class="main">
+        <div class="title"><h2>{{ title }} 🤓</h2></div>
+        {%- for post in collections.js | reverse -%}
+            {% include 'blogcard.njk' %}
+        {%- endfor -%}
+    </div>
+
+   
+
+
+
