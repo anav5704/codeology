@@ -7,7 +7,7 @@ pageDescription: "Stay informed and inspired with our comprehensive collection o
 
  <div class="main">
         <div class="title"><h2>{{ title }} 🖊️</h2></div>
-        {%- for post in collections.html -%}
+        {%- for post in collections.html | reverse -%}
             {% include 'blogcard.njk' %}
         {%- endfor -%}
     </div>

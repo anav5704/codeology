@@ -4,7 +4,7 @@ description: >-
   Are you interested in front-end development but not sure where to begin?
   Knowing which resources to use can be difficult...
 author: Anav
-publish: '2023-04-10'
+date: 2023-04-10
 time: 3 mins
 tags:
   - post

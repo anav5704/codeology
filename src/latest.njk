@@ -8,7 +8,7 @@ pageDescription : "Stay up-to-date with the latest insights and tips on web deve
 
     <div class="main">
         <div class="title"><h2>{{ title }} 🚀</h2></div>
-        {%- for post in collections.latest | reverse-%}
+        {%- for post in collections.latest | reverse -%}
             {% include 'blogcard.njk' %}
         {%- endfor -%}
     </div>
