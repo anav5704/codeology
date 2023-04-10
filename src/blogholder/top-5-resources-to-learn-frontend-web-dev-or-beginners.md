@@ -8,7 +8,7 @@ publish: 10/04/23
 time: 3 mins
 tags:
   - post
-  - featured
+  - latest
   - html
   - css
   - webdev
