@@ -1,0 +1,14 @@
+
+<div class="blogcard">
+    <div class="details">
+        <h2>Continue Reading:</h2>
+        {%- for post in collections.latest -%}
+            <a href=" {{ post.url }}"><p>{{ post.data.title }}</p></a>
+        {%- endfor -%}
+    </div>
+</div>
+
+   
+
+
+
