@@ -2,9 +2,11 @@
 <div class="blogcard">
     <div class="details">
         <h2>Continue Reading:</h2>
+        <ul>
         {%- for post in collections.latest | reverse-%}
-            <a href=" {{ post.url }}"><p>{{ post.data.title }}</p></a>
+            <li><a href=" {{ post.url }}"><p>{{ post.data.title }}</p></a></li>
         {%- endfor -%}
+        </ul>
     </div>
 </div>
 
