@@ -11,10 +11,11 @@ ham.addEventListener('click', () => {
 
 let x =document.getElementById("igfollowercount")
 x.innerHTML = " 1200 ";
-// let y =document.getElementById("ytfollowercount")
-// y.innerHTML = " 10 ";
-// let z =document.getElementById("ttfollowercount")
-// z.innerHTML = " 10 ";
+
+// Auto Change Year for Copyright
+
+const date = new Date();
+document.getElementById( "year" ).innerHTML = date.getFullYear();
 
 // Navbar hide on scroll behaviour
 
