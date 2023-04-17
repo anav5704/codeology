@@ -43,7 +43,7 @@ First, let's create the HTML and CSS for our countdown timer. We'll use a div el
 </html>
 ```
 
-In the CSS, we setup our color variables and use flexbox to centre our timer on the body. We also assign some colors and margin & padding to our elements.
+In the CSS, we setup our color variables and use flexbox to centre our timer on the body. We also assign some colors, margin &and padding to our elements.
 
 ```
 * {
