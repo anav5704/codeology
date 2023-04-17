@@ -2,7 +2,7 @@
 title: Basic computer specs for beginner level programming - 2023
 description: >-
   Welcome to the exciting world of programming! One of the first things you'll
-  need as a newbie is a computer with the necessary . . .
+  need as a newbie is a computer with the necessary...
 author: 'Anav '
 date: 2023-04-04T00:00:00.000Z
 time: 2.5  mins
