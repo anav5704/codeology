@@ -27,8 +27,6 @@ pageDescription: >-
 ---
 Having a countdown timer on a website is a handy feature, whether it's to countdown to an occasion, a sale, or a new product launch. A countdown timer that shows the number of days, hours, minutes, and seconds until a target date can be easily made using JavaScript. The time remaining will be determined in this tutorial using the Date.parse() method and the timer will be updated every second using the setInterval() method.
 
-
-
 ## HTML and CSS Setup
 
 First, let's create the HTML and CSS for our countdown timer. We'll use a div element to display the countdown timer, and style it with CSS.
@@ -45,7 +43,7 @@ First, let's create the HTML and CSS for our countdown timer. We'll use a div el
 </html>
 ```
 
-In the CSS, we setup our color variables and use flexbox to centre our timer on the body. We also assign some colors and margin & padding to our elements.
+In the CSS, we setup our color variables and use flexbox to centre our timer on the body. We also assign some colors, margin &and padding to our elements.
 
 ```
 * {
@@ -122,11 +120,9 @@ if (timeRemaining < 0) {
 }, 1000);
 ```
 
-Using the Date object constructor, we first set the target date in the JavaScript code for the countdown. In this case, we've chosen December 31, 2023, at 11:59:59 PM as the target date. The countdown is then updated every second using the setInterval() method. We use the Date object constructor to obtain the current date and time inside the setInterval() method. The remaining time is then determined by deducting the current time and date from the desired time and date. The dates are converted to milliseconds using the getTime() method, and the remaining time in milliseconds is obtained by deducting the milliseconds.
-
+Using the Date object constructor, we first set the target date in the JavaScript code for the countdown. In this case, we've chosen December 31, 2023, at 11:59:59 PM as the target date. The countdown is then updated every second using the setInterval() method. We use the Date object constructor to obtain the current date and time inside the setInterval() method. The remaining time is then determined by deducting the current time and date from the desired time and date. The dates are converted to milliseconds using the getTime() method, and the remaining time in milliseconds is obtained by deducting the milliseconds.\
+\
 To calculate the days, hours, minutes, and seconds remaining, we use the `Math.floor() method to round down the values. The countdown is finally displayed in the div element with the id "countdown". To display the values for days, hours, minutes, and seconds, we utilise string concatenation. We also determine whether the countdown has ended, and if it has, we use the clearInterval() method to stop the timer and show a message in the div element.
-
-
 
 ## That’s It!
 
