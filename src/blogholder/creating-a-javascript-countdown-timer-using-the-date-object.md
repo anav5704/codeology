@@ -25,7 +25,7 @@ pageDescription: >-
   the countdown timer using CSS. By the end of this tutorial, you'll be able to
   add a dynamic and engaging countdown timer to your website using JavaScript.
 ---
-Having a countdown timer on a website is a handy feature, whether it's to countdown to an occasion, a sale, or a new product launch. A countdown timer that shows the number of days, hours, minutes, and seconds until a target date can be easily made using JavaScript. The time remaining will be determined in this tutorial using the Date.parse() method and the timer will be updated every second using the setInterval() method.
+Having a countdown timer on a website is a handy feature, whether it's to countdown to an occasion, a sale, or a new product launch. A countdown timer that shows the number of days, hours, minutes, and seconds until a target date can be easily made using JavaScript. The time remaining will be determined in this tutorial using the [Date.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) method and the timer will be updated every second using the [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval) method.
 
 ## HTML and CSS Setup
 
@@ -126,4 +126,4 @@ To calculate the days, hours, minutes, and seconds remaining, we use the `Math.f
 
 ## That’s It!
 
-In this article, we learnt how to use the Date.parse() method to create a JavaScript countdown timer. The remaining days, hours, minutes, and seconds were displayed in a div element on the website using the setInterval() method to update the countdown every second. A countdown timer can give your website a sense of urgency and excitement, and JavaScript makes it simple to make one that looks and functions wonderfully. You can make your countdown timer stand out and draw visitors' attention by adding a little CSS flair.
+In this article, we learnt how to use the Date.parse() method to create a JavaScript countdown timer. The remaining days, hours, minutes, and seconds were displayed in a div element on the website using the setInterval() method to update the countdown every second. A countdown timer can give your website a sense of urgency and excitement, and JavaScript makes it simple to make one that looks and functions wonderfully. It is this ease of use and raw power that makes [JavaScript so popular](https://code-hl.com/why-is-javascript-so-popular-and-benefits-learning-it). You can make your countdown timer stand out and draw visitors' attention by adding a little CSS flair. Until next time, happy coding!
