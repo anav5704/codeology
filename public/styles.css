@@ -770,8 +770,14 @@ pre {
     box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid var(--offwhite);
-    ;
+    border: 2px solid var(--blue);
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 20px;
 }
 
 pre code{
