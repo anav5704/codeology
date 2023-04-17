@@ -70,17 +70,9 @@ body {
 
 #countdown {
     background-color: var(--grey);
-    border: 5px solid var(--blue);
     color: white;
     padding: 10px;
     border-radius: 10px;
-}
-
-h1 {
-    font-family: 'League Spartan', sans-serif;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-    color: var(--blue);
 }
 ```
 
