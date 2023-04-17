@@ -2,9 +2,9 @@
 title: 5 amazing tips that can help you learn coding faster!
 description: >-
   It can be an exciting and exhilarating experience to learn to code, but it can
-  also be challenging, especially for beginners ...
+  also be challenging, especially for beginners...
 author: Anav
-date: 2023-04-06
+date: 2023-04-06T00:00:00.000Z
 time: 3 mins
 tags:
   - post
