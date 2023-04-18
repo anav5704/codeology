@@ -5,7 +5,7 @@ description: >-
   countdown to an occasion, a sale, or a new product launch. A countdown
   timer...
 author: Anav
-date: 2023-04-17T16:54:01+12:00
+date: 2023-04-17T04:54:01.000Z
 time: 3.5 mins
 tags:
   - post
@@ -26,6 +26,10 @@ pageDescription: >-
   add a dynamic and engaging countdown timer to your website using JavaScript.
 ---
 Having a countdown timer on a website is a handy feature, whether it's to countdown to an occasion, a sale, or a new product launch. A countdown timer that shows the number of days, hours, minutes, and seconds until a target date can be easily made using JavaScript. The time remaining will be determined in this tutorial using the [Date.parse()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse) method and the timer will be updated every second using the [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/setInterval) method.
+
+## Project Preview: 
+
+![js](/img/4.1.gif)
 
 ## HTML and CSS Setup
 
