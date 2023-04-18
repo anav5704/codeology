@@ -14,7 +14,7 @@ tags:
   - webdev
   - study
 layout: article.njk
-image: /img/3.png
+image: /img/3.jpg
 alt: html
 keywords: >-
   front-end development, web development, beginner's guide, self-paced courses,

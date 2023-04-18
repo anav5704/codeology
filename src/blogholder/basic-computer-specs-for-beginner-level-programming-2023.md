@@ -11,7 +11,7 @@ tags:
   - latest
   - programming
 layout: article.njk
-image: /img/2.png
+image: /img/2.jpg
 alt: cpu
 keywords: >-
   beginner-level programming, PC requirements, CPU, GPU, RAM, storage, display,

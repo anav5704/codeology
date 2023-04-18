@@ -9,7 +9,9 @@ layout: 'base.njk'
         <div class="writer">
         </div>
         <h3>{{ title }}</h3>
-         {{ content | safe }}
+         <div class="blogbody">
+            {{ content | safe }}
+         </div>
     </div>
     </div>
         {% include 'more.njk'%}

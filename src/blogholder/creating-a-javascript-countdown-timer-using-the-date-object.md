@@ -13,7 +13,7 @@ tags:
   - webdev
   - js
 layout: article.njk
-image: /img/4.png
+image: /img/4.jpg
 alt: countdown
 keywords: >-
   JavaScript countdown time0,r Date object, setInterval method, Web development
