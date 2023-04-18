@@ -12,7 +12,7 @@ tags:
   - programming
 layout: article.njk
 image: /img/1.jpg
-alt: cpu
+alt: rectangular image with text on the left that reads  Basic computer specs for beginner level programming and an image of a intel core i7 cpu on the right 
 keywords: >-
   beginner-level programming, PC requirements, CPU, GPU, RAM, storage, display,
   operating system, coding challenge, programming journey, essential gear, Intel

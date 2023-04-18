@@ -15,7 +15,7 @@ tags:
   - study
 layout: article.njk
 image: /img/3.jpg
-alt: html
+alt: rectangular image with text on the left that reads top 5 Resources to learn  frontend web and an image of the html and css logo on the right 
 keywords: >-
   front-end development, web development, beginner's guide, self-paced courses,
   curriculum, visual tutorials, FreeCodeCamp, W3Schools, Mozilla Developer

@@ -14,7 +14,7 @@ tags:
   - js
 layout: article.njk
 image: /img/4.jpg
-alt: countdown
+alt: rectangular image with text on the left that reads  JavaScript Countdown Timer and an image of a simple  JavaScript Countdown Timer on the right 
 keywords: >-
   JavaScript countdown time0,r Date object, setInterval method, Web development
   , Front-end development
