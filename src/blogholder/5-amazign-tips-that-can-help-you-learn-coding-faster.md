@@ -11,7 +11,7 @@ tags:
   - latest
   - programming
 layout: article.njk
-image: /img/1.jpg
+image: /img/2.jpg
 alt: books
 keywords: >-
   learn coding, coding skills, coding fundamentals, coding community, coding
