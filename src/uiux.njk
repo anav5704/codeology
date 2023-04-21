@@ -1,0 +1,18 @@
+---
+title : UI/UX Blogs
+layout: 'base.njk'
+keywords: "UI design, UX design, user interface design, user experience design, web design, user-centered design, design principles"
+pageDescription: "Welcome to our blog dedicated to UI and UX design! Our site is the perfect place to find information on user interface and experience design, web design, user-centered design, and design principles. Our blog offers insights, tips, and advice on how to create engaging and effective digital products that meet the needs of your users. Whether you are a beginner or an experienced designer, you will find valuable content that will help you improve your design skills and create better products. Join our community today and take your design skills to the next level!"
+---
+
+ <div class="main">
+        <div class="title"><h2>{{ title }} 🎨</h2></div>
+        {%- for post in collections.uiux | reverse -%}
+            {% include 'blogcard.njk' %}
+        {%- endfor -%}
+    </div>
+
+   
+
+
+
