@@ -7,7 +7,7 @@ pageDescription: "Explore a variety of programming topics and stay up to date wi
 
  <div class="main">
         <div class="title"><h2>{{ title }} 💻</h2></div>
-        {%- for post in collections.programming -%}
+        {%- for post in collections.programming | reverse-%}
             {% include 'blogcard.njk' %}
         {%- endfor -%}
     </div>

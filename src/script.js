@@ -10,7 +10,7 @@ ham.addEventListener('click', () => {
 // Socials follower count varibles
 
 let x =document.getElementById("igfollowercount")
-x.innerHTML = " 1200 ";
+x.innerHTML = " 1400 ";
 
 // Auto Change Year for Copyright
 
