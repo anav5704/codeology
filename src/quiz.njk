@@ -7,6 +7,13 @@ pageDescription: "Take your knowledge of frontend web development and programmin
 
     <div class="main">
         <div class="title"><h2>{{ title }} ✅</h2></div>
+          <div class="blogcard">
+            <div class="details">
+                <h1>How does this work?</h1>
+                <p>You start with 0 points. You gain 1 point for every correct answer and lose one point for every incorrect answer. Your total points will not drop below 0, so go all out!</p>
+            </div>
+        </div>
+
            <div class="blogcard">
             <div class="details">
             <h1>Ready to test yourself?</h1>
@@ -18,6 +25,7 @@ pageDescription: "Take your knowledge of frontend web development and programmin
             </ul>
          </div>
         </div>
+      
         <div class="blogcard" id="quiz1">
             <div class="details quiz">
                 <h1 >HTML Quiz</h1>
@@ -80,13 +88,19 @@ pageDescription: "Take your knowledge of frontend web development and programmin
                 <button id="ans">&lt;!--comment--&gt;</button>
                 <button>&lt;comment&gt;</button>
                 <button>&lt;note&gt;</button>
-                <button >&lt;message&gt;</button>
-                
+                <button >&lt;message&gt;</button>            
+            </div>
+        </div>
+        <div class="blogcard">
+            <div class="details">
+                <h1>Results:</h1>  
+                <p>You scored a total of <span id="sc1"></span> /10 in the HTML Quiz!</p>
             </div>
         </div>
         <div class="blogcard" id="quiz2">
             <div class="details quiz">
                 <h1 >CSS Quiz</h1>
+              
                 <p class="question">1. What does CSS stand for?</p>
                 <button id="ans">Cascading Style Sheets</button>
                 <button>Creative Style Sheets</button>
@@ -148,6 +162,12 @@ pageDescription: "Take your knowledge of frontend web development and programmin
                 <button id="ans">opacity</button>
             </div>
         </div>
+           <div class="blogcard">
+            <div class="details">
+                <h1>Results:</h1>  
+                <p>You scored a total of <span id="sc2"></span> /10 in the CSS Quiz!</p>
+            </div>
+        </div>
           <div class="blogcard" id="quiz3">
             <div class="details quiz">
             <h1 >JavaScript Quiz</h1>
@@ -203,4 +223,10 @@ pageDescription: "Take your knowledge of frontend web development and programmin
                 <button>function.addEvent(event)</button>
                 </div>
            </div>
+            <div class="blogcard">
+            <div class="details">
+                <h1>Results:</h1>  
+                <p>You scored a total of <span id="sc3"></span> /10 in the JavaScript Quiz!</p>
+            </div>
+        </div>
     </div>

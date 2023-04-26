@@ -142,22 +142,95 @@ function sent() {
     }, 5000);
 }
 
-const parentElements = document.querySelectorAll(".quiz");
-parentElements.forEach(function(parentElement) {
+// Code for quiz - check if answer is correct or nah onclick
+
+// const parentElements = document.querySelectorAll(".quiz");
+// parentElements.forEach(function(parentElement) {
+//   const allChildren = parentElement.querySelectorAll("button");
+
+//   allChildren.forEach(function (child) {
+//     child.addEventListener('click', function() {
+//       if (child.hasAttribute('id') ) {
+//         child.style.border = "2px solid lime";
+//         console.log("click");
+//       } else {
+//         child.style.border = "2px solid red";
+//         console.log("click");
+//       }
+//     });
+//   });
+// });
+
+let score1 = 0; // score for quiz 1
+let score2 = 0; // score for quiz 2
+let score3 = 0; // score for quiz 3
+let result1 = document.getElementById("sc1");
+let result2 = document.getElementById("sc2");
+let result3 = document.getElementById("sc3");
+
+
+const incorrectPenalty = 1;
+
+const quiz1Elements = document.querySelectorAll("#quiz1"); // select elements for quiz 1
+const quiz2Elements = document.querySelectorAll("#quiz2"); // select elements for quiz 2
+const quiz3Elements = document.querySelectorAll("#quiz3"); // select elements for quiz 3
+
+quiz1Elements.forEach(function(parentElement) { // loop through quiz 1 elements
   const allChildren = parentElement.querySelectorAll("button");
 
   allChildren.forEach(function (child) {
     child.addEventListener('click', function() {
       if (child.hasAttribute('id') ) {
         child.style.border = "2px solid lime";
-        console.log("click");
+        score1 += 1; // increment score for quiz 1 if answer is correct
       } else {
         child.style.border = "2px solid red";
-        console.log("click");
+        score1 = Math.max(0, score1 - incorrectPenalty);
       }
+      result1.innerHTML = score1;
+      console.log("Score for Quiz 1: " + score1); // log current score for quiz 1
     });
   });
 });
+
+
+
+quiz2Elements.forEach(function(parentElement) { // loop through quiz 2 elements
+  const allChildren = parentElement.querySelectorAll("button");
+
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        score2 += 1; // increment score for quiz 2 if answer is correct
+      } else {
+        child.style.border = "2px solid red";
+        score2 = Math.max(0, score2 - incorrectPenalty);
+      }
+      result2.innerHTML = score2;
+      console.log("Score for Quiz 2: " + score2); // log current score for quiz 2
+    });
+  });
+});
+
+quiz3Elements.forEach(function(parentElement) { // loop through quiz 3 elements
+  const allChildren = parentElement.querySelectorAll("button");
+
+  allChildren.forEach(function (child) {
+    child.addEventListener('click', function() {
+      if (child.hasAttribute('id') ) {
+        child.style.border = "2px solid lime";
+        score3 += 1; // increment score for quiz 3 if answer is correct
+      } else {
+        child.style.border = "2px solid red";
+        score3 = Math.max(0, score3 - incorrectPenalty);
+      }
+      result3.innerHTML = score3;
+      console.log("Score for Quiz 3: " + score3); // log current score for quiz 3
+    });
+  });
+});
+
 
 
 
