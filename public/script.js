@@ -164,7 +164,9 @@ function sent() {
 let score1 = 0; // score for quiz 1
 let score2 = 0; // score for quiz 2
 let score3 = 0; // score for quiz 3
+
 let result1 = document.getElementById("sc1");
+let comment1 = document.getElementById("comment1");
 let result2 = document.getElementById("sc2");
 let result3 = document.getElementById("sc3");
 
@@ -187,6 +189,21 @@ quiz1Elements.forEach(function(parentElement) { // loop through quiz 1 elements
         child.style.border = "2px solid red";
         score1 = Math.max(0, score1 - incorrectPenalty);
       }
+      if ( score1 == 0) {
+        comment1.innerHTML = "Rome wasn't built in a day, better luck next time my friend.";
+      }
+
+      else if (score1 < 0 || score1 <= 4){
+        comment1.innerHTML = "There is still room for improvement. Keep pushing!";
+      }
+
+      else if (score1 < 5 || score1 <= 9){
+        comment1.innerHTML = "You performed really well. Continue learning more!";
+      }
+
+      else {
+            comment1.innerHTML = "Perfectoin, as expected from  a Codeology.net user!";
+      }
       result1.innerHTML = score1;
       console.log("Score for Quiz 1: " + score1); // log current score for quiz 1
     });
@@ -207,6 +224,21 @@ quiz2Elements.forEach(function(parentElement) { // loop through quiz 2 elements
         child.style.border = "2px solid red";
         score2 = Math.max(0, score2 - incorrectPenalty);
       }
+      if ( score2 == 0) {
+        comment2.innerHTML = "Rome wasn't built in a day, better luck next time my friend.";
+      }
+
+      else if (score2 < 0 || score2 <= 4){
+        comment2.innerHTML = "There is still room for improvement. Keep pushing!";
+      }
+
+      else if (score2 < 5 || score2 <= 9){
+        comment2.innerHTML = "You performed really well. Continue learning more!";
+      }
+
+      else {
+            comment2.innerHTML = "Perfectoin, as expected from  a Codeology.net user!";
+      }
       result2.innerHTML = score2;
       console.log("Score for Quiz 2: " + score2); // log current score for quiz 2
     });
@@ -224,6 +256,21 @@ quiz3Elements.forEach(function(parentElement) { // loop through quiz 3 elements
       } else {
         child.style.border = "2px solid red";
         score3 = Math.max(0, score3 - incorrectPenalty);
+      }
+      if ( score3 == 0) {
+        comment3.innerHTML = "Rome wasn't built in a day, better luck next time my friend.";
+      }
+
+      else if (score3 < 0 || score3 <= 4){
+        comment3.innerHTML = "There is still room for improvement. Keep pushing!";
+      }
+
+      else if (score3 < 5 || score3 <= 9){
+        comment3.innerHTML = "You performed really well. Continue learning more!";
+      }
+
+      else {
+            comment3.innerHTML = "Perfectoin, as expected from  a Codeology.net user!";
       }
       result3.innerHTML = score3;
       console.log("Score for Quiz 3: " + score3); // log current score for quiz 3
