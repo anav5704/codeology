@@ -639,6 +639,10 @@ footer {
     padding-left: 30px;
 }
 
+.copyright span a{
+    color: var(--blue);
+}
+
 .legal a {
     padding-right: 30px;
     transition: all .3s ease;
