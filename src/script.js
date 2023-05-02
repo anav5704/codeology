@@ -101,7 +101,7 @@ window.onscroll = () => {
 
 // Email List submissioin form 
 
-var Freebie = "http://codeology.net/Freebie.zip";
+// var Freebie = "http://codeology.net/Freebie.zip";
 
 let sub = document.querySelector(".sub")
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwjpN5B3DIR_aaSdXKRiX-k5iL1s6ziNZpi5s4PLDe6XWm3IbyS-SWn2T-8tXgb5Pk/exec'
@@ -113,7 +113,8 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         console.log("sent");
-        window.open(Freebie, '');
+        // window.open(Freebie, '_blank');
+        location.href = ('http://localhost:8080/freebie.zip/')
         closediv()
         form.reset();
     }).catch(error => console.error('Error!', error.message));
