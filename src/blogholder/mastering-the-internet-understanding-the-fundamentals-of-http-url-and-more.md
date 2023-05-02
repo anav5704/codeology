@@ -1,11 +1,11 @@
 ---
-title: 'Mastering the Internet: Understanding the Fundamentals of HTTP, URL, and More'
+title: 'Understanding the Fundamentals of HTTP, URL, and More'
 description: >-
   Are you prepared to discover more about the wonderful internet? This blog is
   for you whether you're an absolute rookie or just want to brush up on your
   expertise! 
 author: Anav
-date: 2023-05-02T20:52:04+12:00
+date: 2023-05-02T08:52:04.000Z
 time: 4.5 mins
 tags:
   - post
