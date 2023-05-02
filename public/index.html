@@ -27,13 +27,23 @@
 </div>
 
 
-    <div class="helloholder">
+    
+
+<div class="helloholder">
     <div class="hello">
+         <div class="prepreloader">
+            <div class="loader-1 center"><span></span></div>
+         </div>
         <i onclick="closediv()" class="fa-solid fa-xmark"></i>
-        <div class="img"><img src="/img/hero.png" alt=""></div>
-        <h2 id = "hellotext"></h2>
-        <p>My name is Anav and I made this website; pretty cool right? Feel free to message me if you have any questions.</p>
-        <a href="https://www.instagram.com/partially_unblind/" onclick="closediv()"><button>Let's Talk</button></a>
+        <div class="img"><img src="/img/i.jpg" alt=""></div>
+        <h2 id = "">Want this <span class="freebie">freebie</span>?</h2>
+        <p>Its a design inspriratoin kit. 18 Gradients + 15 Fonts + 7 Hero sections</p>
+        <form action="" name="submit-to-google-sheet" id = "mailform">
+            <input type="text" name="Name" id="name" placeholder="Name" required >
+            <input  type="email" name="Email" id="mail" placeholder="Email" required>
+        <button disabled class="featurecard sub" type="submit" onclick = "sent()" >Grab it</button>
+        </form>
+
     </div>
 </div>
     <div class="navholder" id = "nav">
@@ -57,6 +67,7 @@
     <div class="menus"  id="hamburgertoggle" >
         <ul id="mobilemenu">
             <li><a href="/index.html">Home</a></li>
+            
             <li><a href="/latest">Blogs</a></li>
             <li><a href="/quiz">Quizzes</a></li>
             <li><a href="/about">About</a></li>
@@ -93,70 +104,6 @@
 
 
 <script>
-    // Mobile navbar hamgurger toggle
-
-    let menu = document.getElementById("hamburgertoggle");
-    let ham =  document.getElementById("btn");
-
-    ham.addEventListener('click', () => {
-        menu.classList.toggle('activated');
-    })
-
-    nav = document.querySelector(".navholder");
-    let LastScrollY = window.scrollY;
-
-    window.addEventListener ("scroll", () => {
-    if (LastScrollY < window.scrollY) {
-        nav.style.top= "-10vh";
-    }
-    else {
-        nav.style.top= "0";
-    }
-    LastScrollY = window.scrollY;
-})
-
-  let modal = document.querySelector('.menus');
-    let mobileham = document.querySelector(".ham4");
-    window.addEventListener('click', outsideClick);
-    function outsideClick(e) {
-        if (e.target == modal) {
-            menu.classList.toggle('activated');
-            mobileham.classList.toggle('active');
-}}
-
-    // Dynamic welcome text on hello card
-
-    var greetings = [
-        "Hello There 👋",
-        "Ni Sa Bula 🤝",
-        "Namaste 🙏",
-        "Asalamu Alaikum 🌙"
-    ]
-
-    var randnumber = Math.floor(Math.random() * (greetings.length));
-    document.getElementById("hellotext").innerHTML = greetings[randnumber];
-    console.log (greetings[randnumber])
-
-      var heros = [
-        "Hello There 👋",
-        "Ni Sa Bula 🤝",
-        "Namaste 🙏",
-        "Asalamu Alaikum 🌙"
-    ]
-
-    var randnumber = Math.floor(Math.random() * (heros.length));
-    document.getElementById("herotext").innerHTML = heros[randnumber];
-
-    // Dynamic welcome quotes for loading screen
-
-    var quotes = [
-        "\"Everyone can make a choice, but not everyone can make the right choice.\" <br> <p>Jasveen Singh</p>",
-        "\"When life hits you, hit back.\" <br> <p> Veer Chandra</p>",
-        "\"It's cool to be good at many things, but it's better to be the best at one thing.\" <br> <p> Indeevar Nair</p>"
-    ]
-
-    var randnumberr = Math.floor(Math.random() * (quotes.length));
-    document.getElementById("quotes").innerHTML = quotes[randnumberr];
 
     var body = document.getElementById("body");
     window.addEventListener("load" , function(){
@@ -168,8 +115,16 @@
         loader.style.display="none";
     })
 
-    const date = new Date();
-    document.getElementById( "year" ).innerHTML = date.getFullYear();
+      var heros = [
+        "Hello There 👋",
+        "Ni Sa Bula 🤝",
+        "Namaste 🙏",
+        "Asalamu Alaikum 🌙"
+    ]
+
+    var randnumber = Math.floor(Math.random() * (heros.length));
+    document.getElementById("herotext").innerHTML = heros[randnumber];
 </script>
+<script src="script2.js"></script>
 </body>
 </html>

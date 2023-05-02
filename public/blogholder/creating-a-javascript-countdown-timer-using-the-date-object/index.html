@@ -27,13 +27,23 @@
 </div>
 
 
-    <div class="helloholder">
+    
+
+<div class="helloholder">
     <div class="hello">
+         <div class="prepreloader">
+            <div class="loader-1 center"><span></span></div>
+         </div>
         <i onclick="closediv()" class="fa-solid fa-xmark"></i>
-        <div class="img"><img src="/img/hero.png" alt=""></div>
-        <h2 id = "hellotext"></h2>
-        <p>My name is Anav and I made this website; pretty cool right? Feel free to message me if you have any questions.</p>
-        <a href="https://www.instagram.com/partially_unblind/" onclick="closediv()"><button>Let's Talk</button></a>
+        <div class="img"><img src="/img/i.jpg" alt=""></div>
+        <h2 id = "">Want this <span class="freebie">freebie</span>?</h2>
+        <p>Its a design inspriratoin kit. 18 Gradients + 15 Fonts + 7 Hero sections</p>
+        <form action="" name="submit-to-google-sheet" id = "mailform">
+            <input type="text" name="Name" id="name" placeholder="Name" required >
+            <input  type="email" name="Email" id="mail" placeholder="Email" required>
+        <button disabled class="featurecard sub" type="submit" onclick = "sent()" >Grab it</button>
+        </form>
+
     </div>
 </div>
     <div class="navholder" id = "nav">
@@ -57,6 +67,7 @@
     <div class="menus"  id="hamburgertoggle" >
         <ul id="mobilemenu">
             <li><a href="/index.html">Home</a></li>
+            
             <li><a href="/latest">Blogs</a></li>
             <li><a href="/quiz">Quizzes</a></li>
             <li><a href="/about">About</a></li>
@@ -179,16 +190,7 @@ To calculate the days, hours, minutes, and seconds remaining, we use the `Math.f
 
 
             <div class="featured">
-        <form action="" name="submit-to-google-sheet" id = "mailform">
-        <h2>Want Updates?</h2>
-        <input type="text" name="Name" id="name" placeholder="Name" required >
-        <input  type="email" name="Email" id="mail" placeholder="Email" required>
-       <button disabled class="featurecard sub" type="submit" onclick = "sent()" >Subscribe</button>
-        <button class="featurecard sending"><i class="fa-solid fa-spinner"></i></button>
-        <button class="featurecard done"><i class="fa-solid fa-check"></i></button>
-        <br>
-        <br>
-        </form>
+        
         <h2>Socials</h2>
         <a href="https://www.instagram.com/dinghydev/"><button class="featurecard">Instagram |<span id="igfollowercount"></span>Followers</button></a>
         

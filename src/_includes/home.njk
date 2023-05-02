@@ -28,70 +28,6 @@
     {% include 'footer.njk' %}
 
 <script>
-    // Mobile navbar hamgurger toggle
-
-    let menu = document.getElementById("hamburgertoggle");
-    let ham =  document.getElementById("btn");
-
-    ham.addEventListener('click', () => {
-        menu.classList.toggle('activated');
-    })
-
-    nav = document.querySelector(".navholder");
-    let LastScrollY = window.scrollY;
-
-    window.addEventListener ("scroll", () => {
-    if (LastScrollY < window.scrollY) {
-        nav.style.top= "-10vh";
-    }
-    else {
-        nav.style.top= "0";
-    }
-    LastScrollY = window.scrollY;
-})
-
-  let modal = document.querySelector('.menus');
-    let mobileham = document.querySelector(".ham4");
-    window.addEventListener('click', outsideClick);
-    function outsideClick(e) {
-        if (e.target == modal) {
-            menu.classList.toggle('activated');
-            mobileham.classList.toggle('active');
-}}
-
-    // Dynamic welcome text on hello card
-
-    var greetings = [
-        "Hello There 👋",
-        "Ni Sa Bula 🤝",
-        "Namaste 🙏",
-        "Asalamu Alaikum 🌙"
-    ]
-
-    var randnumber = Math.floor(Math.random() * (greetings.length));
-    document.getElementById("hellotext").innerHTML = greetings[randnumber];
-    console.log (greetings[randnumber])
-
-      var heros = [
-        "Hello There 👋",
-        "Ni Sa Bula 🤝",
-        "Namaste 🙏",
-        "Asalamu Alaikum 🌙"
-    ]
-
-    var randnumber = Math.floor(Math.random() * (heros.length));
-    document.getElementById("herotext").innerHTML = heros[randnumber];
-
-    // Dynamic welcome quotes for loading screen
-
-    var quotes = [
-        "\"Everyone can make a choice, but not everyone can make the right choice.\" <br> <p>Jasveen Singh</p>",
-        "\"When life hits you, hit back.\" <br> <p> Veer Chandra</p>",
-        "\"It's cool to be good at many things, but it's better to be the best at one thing.\" <br> <p> Indeevar Nair</p>"
-    ]
-
-    var randnumberr = Math.floor(Math.random() * (quotes.length));
-    document.getElementById("quotes").innerHTML = quotes[randnumberr];
 
     var body = document.getElementById("body");
     window.addEventListener("load" , function(){
@@ -103,8 +39,16 @@
         loader.style.display="none";
     })
 
-    const date = new Date();
-    document.getElementById( "year" ).innerHTML = date.getFullYear();
+      var heros = [
+        "Hello There 👋",
+        "Ni Sa Bula 🤝",
+        "Namaste 🙏",
+        "Asalamu Alaikum 🌙"
+    ]
+
+    var randnumber = Math.floor(Math.random() * (heros.length));
+    document.getElementById("herotext").innerHTML = heros[randnumber];
 </script>
+<script src="script2.js"></script>
 </body>
 </html>

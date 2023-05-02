@@ -8,6 +8,7 @@ date: 2023-04-06T00:00:00.000Z
 time: 3 mins
 tags:
   - post
+  - study
   - programming
 layout: article.njk
 image: /img/2.jpg
