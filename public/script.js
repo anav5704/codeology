@@ -114,9 +114,9 @@ form.addEventListener('submit', e => {
     .then(response => {
         console.log("sent");
         // window.open(Freebie);
-        location.href = (Freebie)
-        closediv()
+        closediv();
         form.reset();
+        location.href = (Freebie);
     }).catch(error => console.error('Error!', error.message));
 })
 
