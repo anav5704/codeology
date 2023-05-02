@@ -39,7 +39,7 @@ First, let's create the HTML and CSS for our countdown timer. We'll use a div el
 <!DOCTYPE html>
 <html>
 <head>
-    title>JavaScript Countdown Timer</title>
+    <title>JavaScript Countdown Timer</title>
 </head>
 <body>
     <div id="countdown">Countdown timer will display here</div>
