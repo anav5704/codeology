@@ -174,7 +174,7 @@ a {
     transform: translate(-50%, -50%);
     z-index: 2;
     background-color: var(--grey);
-    width: 250px;
+    width: 300px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -1139,9 +1139,8 @@ p img {
     }
 
     .carrd {
-        width: 90%;
+        width:90%;
     }
-
 }
 
 @keyframes helloin {
