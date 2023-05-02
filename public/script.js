@@ -113,7 +113,8 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         console.log("sent");
-        window.open(Freebie);
+        // window.open(Freebie);
+        location.href = (Freebie)
         closediv()
         form.reset();
     }).catch(error => console.error('Error!', error.message));
