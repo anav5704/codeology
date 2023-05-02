@@ -114,7 +114,7 @@ form.addEventListener('submit', e => {
     .then(response => {
         console.log("sent");
         // window.open(Freebie, '_blank');
-        location.href = ('http://localhost:8080/freebie.zip/')
+        location.href = ('http://codeology.net/freebie.zip/')
         closediv()
         form.reset();
     }).catch(error => console.error('Error!', error.message));
