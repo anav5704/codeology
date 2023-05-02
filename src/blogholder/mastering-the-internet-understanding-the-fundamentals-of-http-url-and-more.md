@@ -1,5 +1,5 @@
 ---
-title: 'MWeb Mastery: Understanding the Fundamentals of HTTP, URL, and More'
+title: 'Understanding the Fundamentals of HTTP, URL, and More'
 description: >-
   Are you prepared to discover more about the wonderful internet? This blog is
   for you whether you're an absolute rookie or just want to brush up on your
