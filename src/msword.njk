@@ -1,5 +1,5 @@
 ---
-title : MS Word Blogs
+title : Microsoft Word Blogs
 layout: 'base.njk'
 keywords: "Microsoft Word, Word Processing, Document Editing, Microsoft Office, Microsoft Word Tips, Microsoft Word Tricks, Microsoft Word Features, Microsoft Word Shortcuts, MS Word"
 pageDescription: "Find the latest tips, tricks, and shortcuts for Microsoft Word on our blog. Our expert writers share useful insights on document editing, formatting, and designing in Word. Stay up-to-date with the latest features and updates to Microsoft Word, and learn how to use the software more efficiently to save time and increase productivity. Whether you are a beginner or an experienced user, our blog has something for everyone. Explore our collection of informative articles on Microsoft Word and improve your skills today."
@@ -7,7 +7,7 @@ pageDescription: "Find the latest tips, tricks, and shortcuts for Microsoft Word
 
  <div class="main">
         <div class="title"><h2>{{ title }} 🪟</h2></div>
-        {%- for post in collections.js | reverse -%}
+        {%- for post in collections.msword | reverse -%}
             {% include 'blogcard.njk' %}
         {%- endfor -%}
     </div>
