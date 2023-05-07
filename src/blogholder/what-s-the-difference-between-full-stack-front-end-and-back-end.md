@@ -65,7 +65,7 @@ Back-end development, also referred to as server-side programming and databases,
 
 Full-stack development entails working on a website or application's front end and back end. Developers who are full-stack are capable of handling every stage of development, from designing the user interface to developing the server-side code. To build useful and aesthetically pleasing websites and applications, they combine front-end and back-end technologies. In addition to having a solid grasp of web design principles and server administration, full-stack developers also need to have a comprehensive understanding of programming languages and frameworks. Additionally, they must be able to manage several jobs at once and collaborate well with others.
 
-## Full-stack Development Roadmap:
+## Full-stack Roadmap:
 
 * Learn the basics of HTML, CSS, JavaScript, and a programming language like Java, Python, or PHP.
 * Learn how to use front-end and back-end frameworks like React, Angular, Vue, and Node.js.
