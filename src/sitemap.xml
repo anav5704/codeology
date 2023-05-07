@@ -9,122 +9,132 @@
 
 <url>
   <loc>https://codeology.net/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://codeology.net/index.html</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codeology.net/latest/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codeology.net/quiz/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codeology.net/about/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codeology.net/contact/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codeology.net/disclaimer/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codeology.net/privacy/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://codeology.net/terms/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://codeology.net/blogholder/what-s-the-difference-between-full-stack-front-end-and-back-end/</loc>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://codeology.net/blogholder/mastering-the-internet-understanding-the-fundamentals-of-http-url-and-more/</loc>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://codeology.net/blogholder/designing-for-success-5-essential-ui-ux-principles-you-need-to-know/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://codeology.net/blogholder/creating-a-javascript-countdown-timer-using-the-date-object/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://codeology.net/blogholder/top-5-resources-to-learn-frontend-web-dev-or-beginners/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/all/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/css/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/html/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/js/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/cpp/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/uiux/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/programming/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/study/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/webdev/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://codeology.net/msword/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://codeology.net/blogholder/5-amazign-tips-that-can-help-you-learn-coding-faster/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <loc>https://codeology.net/blogholder/basic-computer-specs-for-beginner-level-programming-2023/</loc>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://codeology.net/blogholder/basic-computer-specs-for-beginner-level-programming-2023/</loc>
-  <lastmod>2023-04-27T00:40:55+00:00</lastmod>
+  <loc>https://codeology.net/blogholder/top-5-resources-to-learn-frontend-web-dev-or-beginners/</loc>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://codeology.net/blogholder/creating-a-javascript-countdown-timer-using-the-date-object/</loc>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://codeology.net/blogholder/5-amazign-tips-that-can-help-you-learn-coding-faster/</loc>
+  <lastmod>2023-05-07T21:31:15+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
