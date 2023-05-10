@@ -1,11 +1,11 @@
 ---
-title: 'Maximizing Website Reach: Website Traffic, Accessibility, and SEO Basics'
+title: 'Maximizing Website Reach: Website Traffic, Accessibility, and SEO'
 description: >-
   Any company or person looking to have an online presence in the current
   digital age needs to have a website. But simply having a website is
   insufficient. Website...
 author: Anav
-date: '2023-05-10T13:54:54+12:00'
+date: 2023-05-10T13:54:54+12:00
 time: 4 mins
 tags:
   - post
