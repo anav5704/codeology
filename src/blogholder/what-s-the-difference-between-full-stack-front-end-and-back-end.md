@@ -4,13 +4,12 @@ description: >-
   The demand for knowledgeable developers has never been higher as the internet
   grows and changes. Front-end and back-end developers...
 author: Anav
-date: 2023-05-06T14:27:16+12:00
+date: 2023-05-06T02:27:16.000Z
 time: 3.5 mins
 tags:
   - post
-  - latest
-  - webdev
   - ''
+  - webdev
 layout: article.njk
 image: /img/15.jpg
 alt: Angular
