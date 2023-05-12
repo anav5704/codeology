@@ -1,10 +1,10 @@
 ---
-title: The use of color and typography to create a visually appealing UI/UX designs .
+title: The use of color & typography to create visually appealing designs .
 description: >-
   In order to create products that are both aesthetically pleasing and
   user-friendly, UI/UX design is a crucial component. Typography and color... 
 author: Anav
-date: '2023-05-13T09:27:12+12:00'
+date: 2023-05-13T09:27:12+12:00
 time: 5.5 mins
 tags:
   - post
