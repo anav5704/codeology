@@ -9,7 +9,6 @@ date: 2023-05-02T08:52:04.000Z
 time: 4.5 mins
 tags:
   - post
-  - latest
   - webdev
 layout: article.njk
 image: /img/14.jpg

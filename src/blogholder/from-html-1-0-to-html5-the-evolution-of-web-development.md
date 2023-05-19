@@ -6,10 +6,11 @@ description: >-
   development, buckle up and prepare to go back in time. Since its inception,
   HTML ...
 author: Anav
-date: '2023-05-19T17:00:08+12:00'
+date: 2023-05-19T17:00:08+12:00
 time: 5 mins
 tags:
   - post
+  - latest
   - webdev
   - html
 layout: article.njk
@@ -26,7 +27,8 @@ pageDescription: >-
   a glimpse of what the future may hold with HTML6. Join us on this fascinating
   ride through the history of web development
 ---
-Are you prepared to travel back in time and learn about HTML's evolution? As we explore the beginnings of the most widely used markup language in web development, buckle up and prepare to go back in time. Since its inception, HTML has come a long way from the days of plain text and images to the dynamic, interactive web applications we know today. We'll take you on an entertaining tour of HTML's development in this blog, from version 1.0 to the most recent and cutting-edge HTML5. So grab some popcorn and prepare to discover the fascinating tale of how HTML transformed the internet as we know it!
+
+Are you prepared to travel back in time and learn about HTML's evolution? As we explore the beginnings of the most widely used markup language in web development, buckle up and prepare to go back in time. Since its inception, HTML has come a long way from the days of plain text and images to the dynamic, interactive web applications we know today. We'll take you on an entertaining tour of HTML's development in this blog, from version 1.0 to the most recent and cutting-edge HTML5. So grab some popcorn and prepare to discover the fascinating tale of how HTML transformed the internet as we know it!
 
 
 
