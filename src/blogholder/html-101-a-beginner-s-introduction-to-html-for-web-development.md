@@ -5,7 +5,7 @@ description: >-
   wild. Ever wonder how websites are developed? It's likely that if you're
   reading this, you're ready ...
 author: Anav
-date: '2023-05-27T10:22:45+12:00'
+date: 2023-05-27T10:22:45+12:00
 time: 3.5 mins
 tags:
   - post
@@ -56,7 +56,17 @@ The head and the body are the two main sections that make up the fundamental str
 
 It can be intimidating to create your first HTML document from scratch, but once you know the basics, it's actually quite easy. Create a new document by opening a plain text editor, like Notepad or TextEdit. Type in the following:
 
-Code
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage title here</title>
+</head>
+<body>
+    <h1>Webpage heading here</h1>
+</body>
+</html>
+```
 
 To view the finished product, save your document with an.html extension and open it in your web browser. You can create your first HTML document using these easy steps and get started learning about web development.
 
