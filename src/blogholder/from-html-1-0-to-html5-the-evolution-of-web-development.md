@@ -14,7 +14,7 @@ tags:
   - webdev
   - html
 layout: article.njk
-image: /img/frontend-web-dev.jpg
+image: /img/18.jpg
 alt: html 6
 keywords: >-
   HTML evolution, HTML 1.0, HTML5, web development, markup language, Tim
