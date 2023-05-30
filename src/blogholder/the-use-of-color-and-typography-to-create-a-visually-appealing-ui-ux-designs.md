@@ -9,7 +9,6 @@ time: 5.5 mins
 tags:
   - post
   - uiux
-  - latest
 layout: article.njk
 image: /img/17.jpg
 alt: Text

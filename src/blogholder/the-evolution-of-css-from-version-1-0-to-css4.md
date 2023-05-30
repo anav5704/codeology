@@ -5,7 +5,7 @@ description: >-
   you have probably seen CSS change over time. CSS has come a long way from its
   early, unassuming days in the 1990s to its ...
 author: Anav
-date: '2023-05-31T11:08:43+12:00'
+date: 2023-05-31T11:08:43+12:00
 time: 3.5 mins
 tags:
   - post
@@ -20,7 +20,8 @@ keywords: >-
   development, styling web pages, responsive design, modular specifications
 pageDescription: ' Explore the evolution of CSS from its humble beginnings with CSS 1 to the cutting-edge features of CSS 4. Discover how CSS revolutionized web design by separating content from presentation, enabling complex layouts, advanced typography, and responsive designs. Learn about the significant advancements made in each version of CSS and the promising features proposed for CSS 4. Dive into the fascinating journey of CSS and its profound impact on the future of web development. Test your knowledge with our CSS quiz and stay up-to-date with the latest trends in web design.'
 ---
-You've probably worked as a web designer or developer before. In that case, you have probably seen CSS change over time. CSS has come a long way from its early, unassuming days in the 1990s to its present status as a vital tool for web design. So join me as we journey through CSS's history, from the debut of CSS 1 to the cutting-edge features of CSS 5, and take a trip down memory lane. Prepare yourself to be amazed at how far web design has come!
+
+You've probably worked as a web designer or developer before. In that case, you have probably seen CSS change over time. CSS has come a long way from its early, unassuming days in the 1990s to its present status as a vital tool for web design. So join me as we journey through CSS's history, from the debut of CSS 1 to the cutting-edge features of CSS 5, and take a trip down memory lane. Prepare yourself to be amazed at how far web design has come!
 
 
 
