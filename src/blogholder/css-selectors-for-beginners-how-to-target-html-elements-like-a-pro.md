@@ -9,8 +9,8 @@ date: '2023-06-04T11:00:00+12:00'
 time: 3.5 mins
 tags:
   - post
-  - lastest 
-  -webdev
+  - latest 
+  - webdev
   - css
 layout: article.njk
 image: /img/21.jpg
