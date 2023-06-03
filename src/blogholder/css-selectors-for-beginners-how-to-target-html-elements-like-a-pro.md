@@ -12,7 +12,7 @@ tags:
   - lastest. webdev
   - css
 layout: article.njk
-image: /img/1.jpg
+image: /img/21.jpg
 alt: css
 keywords: >-
   CSS selectors, HTML elements, styling web pages, web design, web development,
