@@ -20,5 +20,3 @@ First fork and clone the repo. First run```npm install``` to download all the de
 - [Build a blog with CMS - JAM stack](https://www.youtube.com/watch?v=4wD00RT6d-g)
 - [Eleventy crash course](https://youtube.com/playlist?list=PLtLXFsdHI8JTwScHvB924dY3PNwNJjjuW&si=D4YxvFcmwvOW28cV)
 - [Eleventy/11ty docs](https://www.11ty.dev/docs/get-started/)
-
-
